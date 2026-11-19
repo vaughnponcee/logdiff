@@ -1,0 +1,1285 @@
+2026-11-18T14:00:00.036Z INFO  db query orders.by_customer took 52.0ms rows=50
+2026-11-18T14:00:00.095Z INFO  db query orders.by_customer took 68.9ms rows=17
+2026-11-18T14:00:00.415Z INFO  http GET /orders/3549 200 30ms req=3a902931-9755-4f1f-a1a2-5143e6c3f339
+2026-11-18T14:00:00.738Z INFO  db query orders.by_customer took 54.8ms rows=48
+2026-11-18T14:00:00.892Z INFO  http GET /orders/4857 200 10ms req=4a2f20aa-ed2f-4058-a6a8-ea90d66b829e
+2026-11-18T14:00:01.232Z WARN  payments retry attempt=1 upstream=10.0.3.20:8443
+2026-11-18T14:00:01.232Z WARN  payments retry attempt=2 upstream=10.0.3.39:8443
+2026-11-18T14:00:01.232Z WARN  payments retry attempt=3 upstream=10.0.3.33:8443
+2026-11-18T14:00:01.700Z INFO  http GET /orders/2835 200 26ms req=815a47c5-64b2-496c-ada7-7af008d6af57
+2026-11-18T14:00:01.899Z INFO  db query orders.by_customer took 48.5ms rows=33
+2026-11-18T14:00:02.357Z INFO  db query orders.by_customer took 24.5ms rows=37
+2026-11-18T14:00:02.482Z DEBUG cache miss key=cust:264
+2026-11-18T14:00:02.587Z INFO  db query orders.by_customer took 66.7ms rows=24
+2026-11-18T14:00:02.970Z INFO  db query orders.by_customer took 76.8ms rows=27
+2026-11-18T14:00:03.717Z DEBUG cache miss key=cust:1
+2026-11-18T14:00:03.911Z DEBUG cache hit key=cust:409
+2026-11-18T14:00:04.387Z INFO  http GET /orders/4402 200 10ms req=ee52bdb6-415a-4084-ad77-ac51f18dd1ee
+2026-11-18T14:00:04.786Z INFO  http GET /orders/5276 200 34ms req=2f429ce5-582c-44a5-a11c-28dd2adf559a
+2026-11-18T14:00:04.947Z WARN  payments retry attempt=1 upstream=10.0.3.15:8443
+2026-11-18T14:00:05.789Z ERROR payments timeout after 5000ms order=7302
+2026-11-18T14:00:06.094Z INFO  db query orders.by_customer took 52.9ms rows=25
+2026-11-18T14:00:06.375Z INFO  http GET /orders/778 200 22ms req=cdaaac43-523d-4a8e-aa18-0f0c6d21f4cd
+2026-11-18T14:00:06.393Z INFO  http GET /orders/9187 200 5ms req=1391f9b9-4f73-4eac-af07-be6c4c41d9c0
+2026-11-18T14:00:06.616Z INFO  http GET /orders/3284 200 25ms req=37b4000b-f652-4e69-a91f-2be875fa6dd8
+2026-11-18T14:00:06.642Z INFO  http GET /orders/8260 200 34ms req=92c9357d-ac95-4e58-a6ed-31b1976699cc
+2026-11-18T14:00:06.647Z INFO  http GET /orders/7033 200 16ms req=9cb471a5-df22-466f-ae65-04a14806aa81
+2026-11-18T14:00:06.724Z INFO  http GET /orders/1071 200 5ms req=18ae013e-d673-4611-aeea-58068c31406d
+2026-11-18T14:00:06.746Z DEBUG cache miss key=cust:175
+2026-11-18T14:00:06.776Z INFO  db query orders.by_customer took 67.2ms rows=49
+2026-11-18T14:00:06.804Z INFO  db query orders.by_customer took 40.7ms rows=24
+2026-11-18T14:00:06.824Z INFO  http GET /orders/1873 200 32ms req=8cdece75-3945-490e-a14e-4448f3c668b1
+2026-11-18T14:00:07.392Z INFO  http GET /orders/656 200 15ms req=1b943cfc-c979-40bb-ad3e-032b4bb57b5c
+2026-11-18T14:00:07.460Z INFO  db query orders.by_customer took 40.1ms rows=6
+2026-11-18T14:00:07.603Z INFO  db query orders.by_customer took 79.9ms rows=20
+2026-11-18T14:00:07.629Z INFO  db query orders.by_customer took 78.8ms rows=28
+2026-11-18T14:00:07.753Z INFO  http GET /orders/8896 200 33ms req=6607b615-101e-4106-ae9d-f845513dd1a6
+2026-11-18T14:00:08.024Z INFO  http GET /orders/7339 200 8ms req=425375be-2ee7-48aa-a353-32ff4eac98d6
+2026-11-18T14:00:08.288Z INFO  http GET /orders/9487 200 22ms req=a4ba3161-56c1-4f0d-a3a3-f77263f666e0
+2026-11-18T14:00:08.359Z DEBUG cache miss key=cust:138
+2026-11-18T14:00:08.559Z INFO  http GET /orders/2527 200 9ms req=1227932f-baaa-4133-a058-0289a2a866b4
+2026-11-18T14:00:08.733Z INFO  http GET /orders/9862 200 21ms req=cb8409d6-53fd-413b-a825-aa4df3009a5c
+2026-11-18T14:00:08.767Z INFO  db query orders.by_customer took 65.5ms rows=47
+2026-11-18T14:00:09.851Z INFO  db query orders.by_customer took 26.4ms rows=28
+2026-11-18T14:00:10.264Z INFO  http GET /orders/4227 200 34ms req=8c9cf440-400e-48a9-a707-89bed9ee50e2
+2026-11-18T14:00:10.270Z INFO  http GET /orders/2051 200 11ms req=a57d041e-eec1-46aa-af9e-04d79213147b
+2026-11-18T14:00:10.345Z INFO  http GET /orders/8663 200 23ms req=d4350b28-46e3-465d-a906-2c1366ad51fd
+2026-11-18T14:00:10.519Z INFO  http GET /orders/7846 200 17ms req=a61a59e3-eba1-4703-aee1-a39cafbf5310
+2026-11-18T14:00:10.831Z INFO  http GET /orders/8383 200 16ms req=56427403-8f76-49c7-ae82-eaeeba6cac4a
+2026-11-18T14:00:10.925Z INFO  db query orders.by_customer took 82.6ms rows=7
+2026-11-18T14:00:11.492Z INFO  db query orders.by_customer took 43.1ms rows=48
+2026-11-18T14:00:11.873Z INFO  http GET /orders/667 200 36ms req=7eba0352-ae7f-464c-ab79-5915a310a849
+2026-11-18T14:00:12.867Z INFO  db query orders.by_customer took 95.5ms rows=28
+2026-11-18T14:00:13.343Z WARN  payments retry attempt=1 upstream=10.0.3.33:8443
+2026-11-18T14:00:13.343Z WARN  payments retry attempt=2 upstream=10.0.3.15:8443
+2026-11-18T14:00:13.343Z WARN  payments retry attempt=3 upstream=10.0.3.9:8443
+2026-11-18T14:00:13.484Z INFO  db query orders.by_customer took 42.1ms rows=12
+2026-11-18T14:00:13.672Z INFO  http GET /orders/2432 200 37ms req=943ec25a-0562-407e-aa0a-9b0af91c85fd
+2026-11-18T14:00:13.727Z DEBUG cache miss key=cust:183
+2026-11-18T14:00:13.896Z INFO  http GET /orders/396 200 10ms req=db0f0126-1f2e-4c4e-a357-e101920f3663
+2026-11-18T14:00:14.107Z INFO  http GET /orders/6124 200 39ms req=03621f97-8b97-44be-af70-c2d5ac859f8f
+2026-11-18T14:00:14.516Z INFO  db query orders.by_customer took 46.3ms rows=22
+2026-11-18T14:00:14.607Z INFO  http GET /orders/3341 200 38ms req=663f423b-56e0-4c87-abb2-9248aef4259c
+2026-11-18T14:00:14.608Z INFO  worker heartbeat pid=4781 mem=238MB
+2026-11-18T14:00:15.058Z INFO  db query orders.by_customer took 45.4ms rows=33
+2026-11-18T14:00:15.113Z INFO  db query orders.by_customer took 79.9ms rows=46
+2026-11-18T14:00:15.413Z INFO  db query orders.by_customer took 61.1ms rows=25
+2026-11-18T14:00:15.795Z INFO  http GET /orders/6737 200 37ms req=d8a50636-2d9b-4c47-a12c-c6add0b93207
+2026-11-18T14:00:15.885Z INFO  http GET /orders/9677 200 30ms req=764a44e3-d53d-4426-a7c0-77942b6c5763
+2026-11-18T14:00:15.903Z INFO  http GET /orders/4519 200 22ms req=1126d71a-a826-4714-a050-81d52a04ff67
+2026-11-18T14:00:15.962Z INFO  http GET /orders/815 200 13ms req=352c5f80-3cbb-4e2d-a557-118c44e1b856
+2026-11-18T14:00:16.050Z INFO  http GET /orders/6549 200 14ms req=bc2e9ff5-b6a3-4ff1-ad0a-450f8e65e4cf
+2026-11-18T14:00:16.215Z INFO  http GET /orders/501 200 28ms req=427005f6-dde1-49c4-a546-38e9b74f3410
+2026-11-18T14:00:16.310Z INFO  http GET /orders/9489 200 31ms req=6e883110-eee1-4c2f-a3f9-44e3c910c201
+2026-11-18T14:00:16.528Z INFO  db query orders.by_customer took 50.7ms rows=45
+2026-11-18T14:00:16.673Z INFO  http GET /orders/3730 200 28ms req=4f4c8db6-c05a-4669-a3d9-b7d91da77d91
+2026-11-18T14:00:16.770Z INFO  http GET /orders/8660 200 31ms req=edb924d8-1997-4f48-a2fc-0e2a0b83da50
+2026-11-18T14:00:16.875Z INFO  http GET /orders/6192 200 13ms req=d67e8ecf-464a-41e3-a9cf-2c35b150a78d
+2026-11-18T14:00:17.782Z INFO  http GET /orders/8132 200 40ms req=3c593e7f-d1f5-4489-a766-94768c09786b
+2026-11-18T14:00:17.811Z INFO  http GET /orders/2495 200 4ms req=36beb903-fe90-4142-a0bd-cc2503f20791
+2026-11-18T14:00:17.815Z INFO  http GET /orders/4971 200 3ms req=252a66d8-e055-4aa3-a8ae-90930e9f654f
+2026-11-18T14:00:17.815Z ERROR inventory reservation failed sku=SKU-136 reason=stale_version
+2026-11-18T14:00:18.008Z INFO  http GET /orders/8187 200 11ms req=8660194d-d733-4210-a0af-460aeef20845
+2026-11-18T14:00:18.349Z INFO  worker heartbeat pid=6256 mem=240MB
+2026-11-18T14:00:18.419Z INFO  db query orders.by_customer took 41.5ms rows=33
+2026-11-18T14:00:19.288Z WARN  payments retry attempt=1 upstream=10.0.3.19:8443
+2026-11-18T14:00:19.288Z WARN  payments retry attempt=2 upstream=10.0.3.6:8443
+2026-11-18T14:00:19.288Z WARN  payments retry attempt=3 upstream=10.0.3.18:8443
+2026-11-18T14:00:19.337Z INFO  db query orders.by_customer took 49.9ms rows=32
+2026-11-18T14:00:19.495Z INFO  http GET /orders/6475 200 31ms req=5ec8e9d7-196a-4fc1-a500-206a0a452b53
+2026-11-18T14:00:19.502Z INFO  http GET /orders/2131 200 19ms req=8646422c-451e-4172-a400-534ecce695f7
+2026-11-18T14:00:19.897Z INFO  db query orders.by_customer took 49.2ms rows=21
+2026-11-18T14:00:20.538Z DEBUG cache miss key=cust:287
+2026-11-18T14:00:20.856Z INFO  http GET /orders/8538 200 23ms req=d5b48ad0-94d4-4b38-a852-07bf891e53cb
+2026-11-18T14:00:20.882Z INFO  http GET /orders/4888 200 23ms req=586ac6e6-2059-4932-a109-4ced0b27b4c9
+2026-11-18T14:00:20.990Z WARN  payments retry attempt=1 upstream=10.0.3.22:8443
+2026-11-18T14:00:20.990Z WARN  payments retry attempt=2 upstream=10.0.3.38:8443
+2026-11-18T14:00:20.990Z WARN  payments retry attempt=3 upstream=10.0.3.6:8443
+2026-11-18T14:00:21.141Z WARN  payments retry attempt=1 upstream=10.0.3.39:8443
+2026-11-18T14:00:21.141Z WARN  payments retry attempt=2 upstream=10.0.3.5:8443
+2026-11-18T14:00:21.141Z WARN  payments retry attempt=3 upstream=10.0.3.10:8443
+2026-11-18T14:00:21.153Z INFO  http GET /orders/6065 200 28ms req=7dff04ae-935a-4da6-afe1-c8b0407dbb94
+2026-11-18T14:00:21.245Z INFO  http GET /orders/6736 200 6ms req=9927a8fd-fad1-4572-a883-2af481ee476c
+2026-11-18T14:00:21.663Z DEBUG cache hit key=cust:112
+2026-11-18T14:00:21.920Z INFO  db query orders.by_customer took 31.1ms rows=18
+2026-11-18T14:00:21.982Z INFO  http GET /orders/3094 200 33ms req=334c76b8-991b-47e5-add9-e48ee61baceb
+2026-11-18T14:00:22.306Z INFO  db query orders.by_customer took 25.7ms rows=32
+2026-11-18T14:00:22.828Z INFO  http GET /orders/7512 200 3ms req=138fcc23-675b-49da-ae1f-cbd58293d779
+2026-11-18T14:00:22.880Z WARN  payments retry attempt=1 upstream=10.0.3.36:8443
+2026-11-18T14:00:23.139Z INFO  db query orders.by_customer took 53.7ms rows=28
+2026-11-18T14:00:23.229Z INFO  http GET /orders/6589 200 21ms req=819e0387-71b5-4961-a23e-c5c38ccc6ff2
+2026-11-18T14:00:23.918Z INFO  db query orders.by_customer took 45.8ms rows=23
+2026-11-18T14:00:24.171Z INFO  http GET /orders/2430 200 4ms req=da2d6582-7b3e-4c4c-a562-74c66372099a
+2026-11-18T14:00:25.496Z INFO  http GET /orders/6894 200 20ms req=d065c0e7-429e-45e2-adb9-96ee208ad9ff
+2026-11-18T14:00:25.638Z INFO  db query orders.by_customer took 43.5ms rows=5
+2026-11-18T14:00:25.655Z INFO  db query orders.by_customer took 39.4ms rows=6
+2026-11-18T14:00:25.782Z INFO  http GET /orders/1691 200 38ms req=b937a988-2ffb-4d59-a00c-6d7c16d35266
+2026-11-18T14:00:26.066Z DEBUG cache hit key=cust:25
+2026-11-18T14:00:26.452Z INFO  http GET /orders/6441 200 10ms req=ad433669-a4ee-4165-addc-1fb063c47f8a
+2026-11-18T14:00:26.685Z INFO  http GET /orders/8794 200 21ms req=7aac3fa2-1b17-4262-a62e-e7c79d173f5b
+2026-11-18T14:00:27.193Z DEBUG cache miss key=cust:388
+2026-11-18T14:00:28.320Z INFO  http GET /orders/1651 200 17ms req=a843a823-58cd-4ed0-ae29-b573f7fbc221
+2026-11-18T14:00:28.497Z INFO  db query orders.by_customer took 40.8ms rows=3
+2026-11-18T14:00:28.687Z INFO  http GET /orders/3513 200 34ms req=9be629db-8265-4261-af22-452969eeec3b
+2026-11-18T14:00:28.802Z INFO  http GET /orders/5342 200 36ms req=7875e73f-3ddd-456a-a2d1-c2489b114332
+2026-11-18T14:00:29.095Z INFO  http GET /orders/2096 200 11ms req=a522eeb3-c2eb-4cfd-afd2-3693e439e76d
+2026-11-18T14:00:29.394Z INFO  http GET /orders/5045 200 30ms req=399b6c99-1689-4a2a-a89f-b3f2d43b1dd5
+2026-11-18T14:00:29.494Z INFO  http GET /orders/5589 200 20ms req=c6170c37-0522-4d25-a4e2-9d89d27c3a5b
+2026-11-18T14:00:29.723Z INFO  db query orders.by_customer took 39.1ms rows=43
+2026-11-18T14:00:29.937Z INFO  http GET /orders/5928 200 4ms req=58d51a05-13ce-4178-ab99-1a6bffaff116
+2026-11-18T14:00:29.957Z INFO  http GET /orders/131 200 35ms req=ecfeba26-663a-45f3-aef0-a36cb85544ca
+2026-11-18T14:00:30.505Z INFO  http GET /orders/4442 200 28ms req=f57dd6ab-f2dc-41cb-a5a3-cdb6ec5f80dd
+2026-11-18T14:00:30.529Z INFO  http GET /orders/3595 200 22ms req=939ef122-9ee2-4b9b-a871-907f79bffa46
+2026-11-18T14:00:30.728Z INFO  http GET /orders/4103 200 37ms req=0dcef328-999f-4822-a1c2-3d962cd66a72
+2026-11-18T14:00:30.807Z INFO  db query orders.by_customer took 35.7ms rows=34
+2026-11-18T14:00:30.920Z INFO  http GET /orders/2167 200 12ms req=8e3465e2-d804-4cdf-ab92-af4181e2021b
+2026-11-18T14:00:30.939Z INFO  db query orders.by_customer took 49.8ms rows=23
+2026-11-18T14:00:31.488Z INFO  db query orders.by_customer took 50.1ms rows=17
+2026-11-18T14:00:31.575Z DEBUG cache miss key=cust:383
+2026-11-18T14:00:31.781Z ERROR payments timeout after 5000ms order=6692
+2026-11-18T14:00:31.912Z DEBUG cache hit key=cust:301
+2026-11-18T14:00:31.949Z DEBUG cache miss key=cust:414
+2026-11-18T14:00:32.192Z INFO  db query orders.by_customer took 64.6ms rows=16
+2026-11-18T14:00:32.460Z INFO  http GET /orders/5591 200 31ms req=feec111e-e5fb-4c5a-aea6-9df00e4034d0
+2026-11-18T14:00:32.860Z INFO  http GET /orders/8898 200 34ms req=3cf17ebd-a28a-49c1-a84d-0e5824f5a901
+2026-11-18T14:00:33.422Z INFO  db query orders.by_customer took 51.4ms rows=11
+2026-11-18T14:00:33.549Z INFO  db query orders.by_customer took 45.6ms rows=47
+2026-11-18T14:00:33.708Z INFO  http GET /orders/9363 200 34ms req=7e1cae65-a6c4-4c5e-aa9c-efd0b926e626
+2026-11-18T14:00:34.362Z INFO  db query orders.by_customer took 38.2ms rows=42
+2026-11-18T14:00:34.536Z INFO  http GET /orders/7610 200 28ms req=d0a01524-49db-4eaf-a27c-f8db277f7617
+2026-11-18T14:00:34.952Z INFO  http GET /orders/2604 200 14ms req=b466120d-bc6f-4caf-ae9a-89a83a763bf0
+2026-11-18T14:00:35.057Z INFO  http GET /orders/663 200 36ms req=3d38f38e-1378-4c66-a894-8ecfef784c8f
+2026-11-18T14:00:35.380Z INFO  db query orders.by_customer took 53.8ms rows=7
+2026-11-18T14:00:35.589Z INFO  http GET /orders/5112 200 32ms req=0c607fe9-6311-416f-a8f5-a43518371c67
+2026-11-18T14:00:35.670Z INFO  http GET /orders/7352 200 35ms req=6a6213e1-2aac-4984-a221-8fc9fc72011f
+2026-11-18T14:00:36.077Z INFO  http GET /orders/2482 200 19ms req=8dc7238e-2ae9-4b2e-a653-639bb2d3d8f8
+2026-11-18T14:00:36.286Z INFO  http GET /orders/4179 200 19ms req=d847a872-2cd7-4c7d-ab89-156a9f3e07ee
+2026-11-18T14:00:36.393Z INFO  http GET /orders/9493 200 37ms req=47754f9b-90c2-477b-a037-f42f2626fb92
+2026-11-18T14:00:36.634Z INFO  db query orders.by_customer took 35.0ms rows=5
+2026-11-18T14:00:36.879Z INFO  db query orders.by_customer took 66.4ms rows=37
+2026-11-18T14:00:37.107Z INFO  http GET /orders/6508 200 25ms req=ac354cdd-89db-48bd-a12f-3dc0ed6e4725
+2026-11-18T14:00:37.452Z INFO  http GET /orders/4898 200 16ms req=2da54a07-39a0-44c3-ab59-590424d03617
+2026-11-18T14:00:37.758Z INFO  http GET /orders/955 200 6ms req=059b5c77-4a50-4ccf-acf6-97b49f40007e
+2026-11-18T14:00:38.199Z DEBUG cache hit key=cust:126
+2026-11-18T14:00:38.540Z INFO  db query orders.by_customer took 55.2ms rows=46
+2026-11-18T14:00:38.541Z INFO  db query orders.by_customer took 45.3ms rows=17
+2026-11-18T14:00:38.550Z INFO  http GET /orders/6901 200 28ms req=2af346e9-abec-4aba-aebd-80bb8deb1729
+2026-11-18T14:00:38.630Z INFO  http GET /orders/3512 200 28ms req=1904f4cd-ab56-4d4b-ad57-2fc8212d7797
+2026-11-18T14:00:39.063Z INFO  http GET /orders/2839 200 35ms req=89e598ba-d285-4eca-a561-3e54e870fbaf
+2026-11-18T14:00:39.115Z INFO  worker heartbeat pid=7364 mem=204MB
+2026-11-18T14:00:39.220Z INFO  db query orders.by_customer took 85.8ms rows=4
+2026-11-18T14:00:40.385Z WARN  payments retry attempt=1 upstream=10.0.3.5:8443
+2026-11-18T14:00:40.385Z WARN  payments retry attempt=2 upstream=10.0.3.37:8443
+2026-11-18T14:00:40.385Z WARN  payments retry attempt=3 upstream=10.0.3.32:8443
+2026-11-18T14:00:40.390Z INFO  worker heartbeat pid=1539 mem=255MB
+2026-11-18T14:00:40.623Z INFO  db query orders.by_customer took 52.9ms rows=2
+2026-11-18T14:00:40.837Z INFO  db query orders.by_customer took 43.8ms rows=37
+2026-11-18T14:00:40.856Z WARN  payments retry attempt=1 upstream=10.0.3.11:8443
+2026-11-18T14:00:40.856Z WARN  payments retry attempt=2 upstream=10.0.3.39:8443
+2026-11-18T14:00:40.856Z WARN  payments retry attempt=3 upstream=10.0.3.11:8443
+2026-11-18T14:00:41.079Z INFO  http GET /orders/6038 200 5ms req=676b00ec-5134-4dde-a823-d24c6bbd6a3c
+2026-11-18T14:00:41.389Z INFO  http GET /orders/1368 200 7ms req=c47e1bcd-a177-43f2-ad1e-43f8ca597dec
+2026-11-18T14:00:41.697Z INFO  db query orders.by_customer took 31.7ms rows=15
+2026-11-18T14:00:41.756Z INFO  worker heartbeat pid=7733 mem=234MB
+2026-11-18T14:00:41.776Z INFO  http GET /orders/611 200 4ms req=50c1e48a-56f4-4ed0-a4bc-8423dc009da5
+2026-11-18T14:00:42.910Z INFO  db query orders.by_customer took 79.2ms rows=33
+2026-11-18T14:00:43.048Z INFO  http GET /orders/4368 200 32ms req=f919c8b5-e737-4328-a3b9-96621d61153a
+2026-11-18T14:00:43.103Z INFO  db query orders.by_customer took 35.9ms rows=0
+2026-11-18T14:00:43.168Z INFO  http GET /orders/5324 200 28ms req=e32a9e7b-15ab-4863-ad12-08fc2c5e6907
+2026-11-18T14:00:43.891Z INFO  http GET /orders/7985 200 4ms req=12cf7bee-31fb-4982-a2e7-af343001b914
+2026-11-18T14:00:44.555Z INFO  db query orders.by_customer took 56.3ms rows=12
+2026-11-18T14:00:44.858Z INFO  http GET /orders/7826 200 39ms req=cde19cd2-7e8c-4f3b-ad78-9ba2d5094917
+2026-11-18T14:00:45.447Z INFO  http GET /orders/6496 200 37ms req=c49c1282-7338-49a8-a789-d5032a5615f6
+2026-11-18T14:00:45.522Z INFO  http GET /orders/7278 200 16ms req=4f6c1972-03c1-49ac-ac1e-c82b0bbcb351
+2026-11-18T14:00:45.822Z INFO  db query orders.by_customer took 46.1ms rows=22
+2026-11-18T14:00:46.335Z INFO  http GET /orders/5060 200 40ms req=ea5f0e71-0218-4417-ac05-bdf68a85feff
+2026-11-18T14:00:46.861Z DEBUG cache miss key=cust:400
+2026-11-18T14:00:47.155Z INFO  http GET /orders/9406 200 26ms req=f5a05735-68df-49b8-a573-06f73b89d84c
+2026-11-18T14:00:47.245Z INFO  http GET /orders/692 200 18ms req=60c5a316-6ba1-4ed5-a86c-7621f9196aa6
+2026-11-18T14:00:47.493Z INFO  db query orders.by_customer took 41.5ms rows=1
+2026-11-18T14:00:48.702Z INFO  http GET /orders/4789 200 38ms req=6fdebbf7-8dcc-4578-adfd-8361cd1afcf4
+2026-11-18T14:00:48.974Z INFO  http GET /orders/9923 200 19ms req=6df5eaf1-02e4-4d78-a4f8-1620c093b8cb
+2026-11-18T14:00:49.118Z INFO  http GET /orders/792 200 7ms req=c8cfb955-3b05-40de-a1a3-83e698cfbb44
+2026-11-18T14:00:49.179Z INFO  db query orders.by_customer took 34.2ms rows=39
+2026-11-18T14:00:49.181Z INFO  http GET /orders/3453 200 28ms req=361ba5de-780d-4333-a442-94ea4b9ceb25
+2026-11-18T14:00:49.726Z INFO  http GET /orders/3032 200 35ms req=3d145248-f85e-48e2-ab35-090c73dfc87c
+2026-11-18T14:00:49.982Z INFO  db query orders.by_customer took 42.9ms rows=28
+2026-11-18T14:00:50.038Z DEBUG cache hit key=cust:371
+2026-11-18T14:00:50.110Z INFO  db query orders.by_customer took 101.1ms rows=43
+2026-11-18T14:00:50.232Z INFO  http GET /orders/7154 200 20ms req=6d147d54-ee86-43e9-ad4f-7d45d4881f67
+2026-11-18T14:00:50.422Z INFO  http GET /orders/6489 200 33ms req=ebb769f9-f8b8-4ee4-a55c-d4e3c1375dde
+2026-11-18T14:00:50.601Z INFO  db query orders.by_customer took 31.8ms rows=10
+2026-11-18T14:00:50.754Z INFO  db query orders.by_customer took 57.0ms rows=10
+2026-11-18T14:00:50.836Z INFO  http GET /orders/2553 200 23ms req=791ad404-4f4b-413c-a6da-8cca276dcee0
+2026-11-18T14:00:50.854Z INFO  http GET /orders/5998 200 35ms req=2fd16ec8-7ac5-488d-a08f-0bfffc315153
+2026-11-18T14:00:51.535Z INFO  db query orders.by_customer took 70.3ms rows=11
+2026-11-18T14:00:52.276Z INFO  http GET /orders/811 200 17ms req=085a75c6-fa20-4455-ae29-b62b9d284934
+2026-11-18T14:00:52.987Z WARN  payments retry attempt=1 upstream=10.0.3.16:8443
+2026-11-18T14:00:52.987Z WARN  payments retry attempt=2 upstream=10.0.3.6:8443
+2026-11-18T14:00:52.987Z WARN  payments retry attempt=3 upstream=10.0.3.21:8443
+2026-11-18T14:00:53.200Z INFO  http GET /orders/2997 200 35ms req=825f0883-e6ad-4e3b-a8a1-e74f99ab1f99
+2026-11-18T14:00:53.699Z INFO  db query orders.by_customer took 43.2ms rows=1
+2026-11-18T14:00:53.744Z DEBUG cache miss key=cust:330
+2026-11-18T14:00:54.011Z WARN  payments retry attempt=1 upstream=10.0.3.32:8443
+2026-11-18T14:00:54.011Z WARN  payments retry attempt=2 upstream=10.0.3.37:8443
+2026-11-18T14:00:54.011Z WARN  payments retry attempt=3 upstream=10.0.3.4:8443
+2026-11-18T14:00:54.590Z INFO  db query orders.by_customer took 51.5ms rows=36
+2026-11-18T14:00:54.867Z DEBUG cache miss key=cust:338
+2026-11-18T14:00:55.126Z DEBUG cache hit key=cust:488
+2026-11-18T14:00:55.293Z WARN  payments retry attempt=1 upstream=10.0.3.24:8443
+2026-11-18T14:00:55.293Z WARN  payments retry attempt=2 upstream=10.0.3.38:8443
+2026-11-18T14:00:55.293Z WARN  payments retry attempt=3 upstream=10.0.3.33:8443
+2026-11-18T14:00:55.508Z INFO  http GET /orders/9290 200 15ms req=9bca1c4e-4182-4ace-a2c2-248f529a1a4a
+2026-11-18T14:00:55.634Z INFO  http GET /orders/1156 200 5ms req=7301e56c-2669-4d52-a7b2-b2a5f8985df3
+2026-11-18T14:00:55.817Z INFO  db query orders.by_customer took 53.0ms rows=25
+2026-11-18T14:00:55.820Z INFO  http GET /orders/6035 200 25ms req=8d7b7f57-b976-48fe-ad4a-7356bdfa62ee
+2026-11-18T14:00:55.964Z INFO  http GET /orders/739 200 26ms req=b00c3046-a516-4a98-a8bf-d9f04db8a26b
+2026-11-18T14:00:56.174Z INFO  worker heartbeat pid=4816 mem=207MB
+2026-11-18T14:00:56.268Z INFO  http GET /orders/3839 200 38ms req=236921e8-fdcd-42b5-a547-2e3321b3170b
+2026-11-18T14:00:56.575Z INFO  http GET /orders/3388 200 21ms req=77d3731c-753e-482a-a8d5-2b764fa3e7be
+2026-11-18T14:00:56.855Z INFO  http GET /orders/2932 200 31ms req=aea6035c-01a5-4d03-afb3-1e7a5728ca5a
+2026-11-18T14:00:57.004Z INFO  http GET /orders/7783 200 31ms req=8880d14a-713e-45d1-ad5d-0dd434d7f894
+2026-11-18T14:00:57.188Z INFO  http GET /orders/5715 200 14ms req=97f4206b-0952-4964-a31a-f9c1f26515f4
+2026-11-18T14:00:57.649Z INFO  http GET /orders/1666 200 27ms req=45f5fece-2e2f-4e0a-ac69-8e72070e4f04
+2026-11-18T14:00:57.663Z INFO  http GET /orders/7000 200 33ms req=77e1bdc7-4738-4ee3-a68c-54ce771ed053
+2026-11-18T14:00:57.839Z INFO  worker heartbeat pid=8266 mem=229MB
+2026-11-18T14:00:58.101Z INFO  http GET /orders/6350 200 34ms req=27dfb626-1a78-4b2f-a1a5-0d766cda28e8
+2026-11-18T14:00:58.417Z INFO  http GET /orders/1644 200 34ms req=4d3aacf7-bda4-4b65-a4d9-94c8a4c050ed
+2026-11-18T14:00:58.417Z ERROR inventory reservation failed sku=SKU-284 reason=stale_version
+2026-11-18T14:00:58.564Z ERROR payments timeout after 5000ms order=9159
+2026-11-18T14:00:59.247Z INFO  db query orders.by_customer took 68.1ms rows=34
+2026-11-18T14:00:59.843Z INFO  http GET /orders/6878 200 4ms req=2a846be0-3db3-4895-a333-9830dbdd95d2
+2026-11-18T14:00:59.948Z DEBUG cache miss key=cust:115
+2026-11-18T14:01:00.042Z INFO  db query orders.by_customer took 80.5ms rows=39
+2026-11-18T14:01:00.500Z INFO  http GET /orders/7111 200 3ms req=38e1a266-3be1-410d-ad2a-51fc9c81fe8f
+2026-11-18T14:01:00.913Z INFO  worker heartbeat pid=7172 mem=221MB
+2026-11-18T14:01:00.952Z INFO  http GET /orders/8813 200 13ms req=6fdfa20f-5357-48ac-adf0-f1c0a3445053
+2026-11-18T14:01:01.784Z INFO  db query orders.by_customer took 39.7ms rows=46
+2026-11-18T14:01:02.087Z INFO  http GET /orders/8008 200 5ms req=5138d98e-983c-4231-a054-c7775bcef505
+2026-11-18T14:01:02.727Z INFO  http GET /orders/5711 200 7ms req=16fa7ac9-2231-4886-a780-feed90976dee
+2026-11-18T14:01:02.848Z INFO  db query orders.by_customer took 31.7ms rows=46
+2026-11-18T14:01:03.146Z INFO  http GET /orders/1718 200 31ms req=0acada4a-4458-4d1d-a84d-1266307c64a9
+2026-11-18T14:01:03.463Z INFO  http GET /orders/5717 200 27ms req=fe7ad2f1-93a4-485d-ab5c-7b9fa6e72757
+2026-11-18T14:01:03.596Z INFO  http GET /orders/6449 200 32ms req=5e384ff9-f73d-48c8-aec4-321534b89456
+2026-11-18T14:01:03.980Z INFO  http GET /orders/4563 200 29ms req=70d739f6-9158-4186-a0dd-d0a82c1ceafe
+2026-11-18T14:01:04.015Z INFO  db query orders.by_customer took 48.3ms rows=32
+2026-11-18T14:01:04.167Z INFO  http GET /orders/2041 200 30ms req=b0512cdd-eb68-485e-a5d3-0f6095b14b06
+2026-11-18T14:01:04.920Z INFO  worker heartbeat pid=5830 mem=227MB
+2026-11-18T14:01:04.944Z INFO  http GET /orders/9864 200 37ms req=8b4a1ef6-9a4a-4805-a18c-89e720f3532b
+2026-11-18T14:01:05.701Z INFO  http GET /orders/3452 200 40ms req=3de627d5-e96d-4ff7-a85f-7a43613eab56
+2026-11-18T14:01:05.937Z INFO  db query orders.by_customer took 69.5ms rows=37
+2026-11-18T14:01:05.959Z INFO  db query orders.by_customer took 38.8ms rows=35
+2026-11-18T14:01:06.048Z INFO  http GET /orders/5270 200 33ms req=a0c5be36-0a78-4ab9-a986-46da076b44ad
+2026-11-18T14:01:06.194Z INFO  db query orders.by_customer took 49.5ms rows=20
+2026-11-18T14:01:06.372Z INFO  db query orders.by_customer took 44.3ms rows=30
+2026-11-18T14:01:06.721Z INFO  http GET /orders/5892 200 19ms req=387ec319-4e6d-4046-a102-25d8fe3ef57b
+2026-11-18T14:01:07.187Z INFO  http GET /orders/7457 200 5ms req=4f2f2f6b-ca20-4fbf-a8a8-4d90e1177c21
+2026-11-18T14:01:07.335Z INFO  db query orders.by_customer took 57.6ms rows=4
+2026-11-18T14:01:07.719Z INFO  http GET /orders/1604 200 23ms req=4886e278-0310-4a58-a441-f627b99106c2
+2026-11-18T14:01:07.952Z INFO  http GET /orders/9651 200 5ms req=a330c1b6-b21b-4b03-a92a-e32bed8a97d1
+2026-11-18T14:01:08.004Z INFO  db query orders.by_customer took 54.8ms rows=10
+2026-11-18T14:01:08.194Z INFO  http GET /orders/4066 200 7ms req=3a59c4c3-dd98-437a-a16f-5a5680f2ee18
+2026-11-18T14:01:08.679Z INFO  http GET /orders/7152 200 7ms req=43cd659d-0e8e-4eed-afdd-6e8e05921acb
+2026-11-18T14:01:08.730Z DEBUG cache miss key=cust:182
+2026-11-18T14:01:08.909Z DEBUG cache miss key=cust:80
+2026-11-18T14:01:09.203Z INFO  db query orders.by_customer took 31.5ms rows=13
+2026-11-18T14:01:09.603Z DEBUG cache miss key=cust:439
+2026-11-18T14:01:09.773Z INFO  http GET /orders/8056 200 39ms req=195dd4a5-e2d9-44bc-ab38-6fa79ff42579
+2026-11-18T14:01:09.804Z INFO  http GET /orders/6912 200 4ms req=7f1882da-5bc5-4b4f-aa4a-9841f143a03f
+2026-11-18T14:01:10.049Z INFO  db query orders.by_customer took 37.7ms rows=12
+2026-11-18T14:01:10.277Z ERROR payments timeout after 5000ms order=9195
+2026-11-18T14:01:10.591Z INFO  http GET /orders/1388 200 29ms req=c837da30-427b-4f18-aac1-ad67e6ee6fc8
+2026-11-18T14:01:10.896Z INFO  http GET /orders/3818 200 35ms req=61643660-0723-47a9-a952-2144b801e5e3
+2026-11-18T14:01:10.903Z INFO  http GET /orders/649 200 25ms req=cda0c2f4-0fd5-4691-a99c-3ff61583c996
+2026-11-18T14:01:11.270Z INFO  http GET /orders/5859 200 23ms req=117fa84c-12be-4d3e-a0b9-4e8495ae5391
+2026-11-18T14:01:11.755Z INFO  worker heartbeat pid=6196 mem=249MB
+2026-11-18T14:01:12.057Z INFO  http GET /orders/7884 200 19ms req=4f8fcd76-f4e4-4fe1-a4e5-894bd4da0237
+2026-11-18T14:01:12.574Z INFO  http GET /orders/2704 200 38ms req=c8f01cb6-3aee-425c-af8e-dc6e3dde9982
+2026-11-18T14:01:13.412Z INFO  http GET /orders/7303 200 16ms req=cb95eb79-dac7-4d68-a9f0-50f212f2ec76
+2026-11-18T14:01:13.540Z INFO  worker heartbeat pid=6338 mem=228MB
+2026-11-18T14:01:13.642Z INFO  http GET /orders/9847 200 13ms req=118d101a-1209-4d2c-a3b1-86091eac5169
+2026-11-18T14:01:13.795Z WARN  payments retry attempt=1 upstream=10.0.3.24:8443
+2026-11-18T14:01:13.795Z WARN  payments retry attempt=2 upstream=10.0.3.19:8443
+2026-11-18T14:01:13.795Z WARN  payments retry attempt=3 upstream=10.0.3.20:8443
+2026-11-18T14:01:13.808Z INFO  http GET /orders/4985 200 10ms req=dfddf8d0-02b0-4a07-ac7e-fa3edade0658
+2026-11-18T14:01:13.878Z INFO  db query orders.by_customer took 99.7ms rows=42
+2026-11-18T14:01:14.792Z INFO  http GET /orders/145 200 17ms req=70b2a9df-fa5a-4ba8-a075-3a378f3a196c
+2026-11-18T14:01:14.829Z INFO  http GET /orders/130 200 37ms req=041715f3-df0b-4231-a520-93a0e9ebce7e
+2026-11-18T14:01:14.911Z INFO  http GET /orders/2949 200 33ms req=4249dc01-fc9d-48af-a62a-676edfaf41f5
+2026-11-18T14:01:15.118Z INFO  http GET /orders/5221 200 28ms req=221334b1-e6d6-49e2-a355-069086a159ce
+2026-11-18T14:01:15.128Z INFO  db query orders.by_customer took 52.6ms rows=2
+2026-11-18T14:01:15.163Z INFO  http GET /orders/8743 200 13ms req=6927a663-8bc1-463b-a8b5-9783458775f3
+2026-11-18T14:01:15.229Z INFO  http GET /orders/1621 200 5ms req=35ffd0b3-7afc-42a2-a0d7-d74fa86ade2a
+2026-11-18T14:01:15.536Z INFO  db query orders.by_customer took 38.0ms rows=6
+2026-11-18T14:01:16.412Z INFO  http GET /orders/6023 200 30ms req=a9a17939-67a0-4df7-a395-2089103e21ef
+2026-11-18T14:01:16.837Z INFO  worker heartbeat pid=5639 mem=214MB
+2026-11-18T14:01:16.955Z INFO  http GET /orders/6873 200 40ms req=9ee18264-dd84-41b3-a2e4-de28afd749a3
+2026-11-18T14:01:17.125Z INFO  http GET /orders/5492 200 5ms req=fa6c1960-c33a-475d-ae68-a02d1c30d755
+2026-11-18T14:01:17.206Z INFO  db query orders.by_customer took 40.0ms rows=45
+2026-11-18T14:01:17.353Z INFO  http GET /orders/9266 200 8ms req=3e4ab4d3-7d40-4bff-a623-f5de07176aab
+2026-11-18T14:01:17.451Z INFO  http GET /orders/7420 200 33ms req=83b535f3-a9a7-42e5-a380-bd764b2a05d1
+2026-11-18T14:01:17.724Z INFO  http GET /orders/2889 200 37ms req=d8adacc6-d560-41a4-a900-90017d1fcd46
+2026-11-18T14:01:17.886Z INFO  http GET /orders/949 200 4ms req=b7ae9095-ae6f-4565-a045-dfb67468b866
+2026-11-18T14:01:18.031Z DEBUG cache miss key=cust:20
+2026-11-18T14:01:18.485Z DEBUG cache hit key=cust:367
+2026-11-18T14:01:18.604Z INFO  http GET /orders/6871 200 13ms req=66001917-82e9-46d1-a459-564571531610
+2026-11-18T14:01:19.173Z INFO  http GET /orders/6767 200 33ms req=290e4253-d5d6-48b1-a824-81ffc70b7b60
+2026-11-18T14:01:19.257Z INFO  http GET /orders/8925 200 36ms req=58e9c7bf-efab-4b52-a74e-65c6dec005eb
+2026-11-18T14:01:19.321Z INFO  worker heartbeat pid=7559 mem=237MB
+2026-11-18T14:01:19.394Z INFO  http GET /orders/1554 200 32ms req=04059075-28cb-4d21-a7bc-38381c4abe9c
+2026-11-18T14:01:19.593Z INFO  db query orders.by_customer took 31.3ms rows=13
+2026-11-18T14:01:19.703Z INFO  http GET /orders/3756 200 31ms req=7015c390-1c4b-456b-ae60-dfa051877ebf
+2026-11-18T14:01:19.909Z INFO  http GET /orders/866 200 24ms req=fd69d513-6d69-46e6-ab58-ba62e7b0433d
+2026-11-18T14:01:20.728Z INFO  http GET /orders/3348 200 33ms req=f79f8f1f-6060-4113-aa19-cb0897cf83c2
+2026-11-18T14:01:21.460Z INFO  http GET /orders/2266 200 28ms req=3baf699a-5bc4-49dd-a870-a054e9692a7f
+2026-11-18T14:01:21.599Z INFO  http GET /orders/4469 200 30ms req=59d16ecc-b434-4c7b-a08b-1340883fce42
+2026-11-18T14:01:21.826Z INFO  http GET /orders/9113 200 33ms req=56840711-ecf3-47b6-ae67-14c45736de8a
+2026-11-18T14:01:22.564Z INFO  db query orders.by_customer took 37.2ms rows=32
+2026-11-18T14:01:22.643Z INFO  http GET /orders/3956 200 7ms req=f92a2183-dc26-4eb9-aae6-8e8a4396c402
+2026-11-18T14:01:22.967Z INFO  http GET /orders/277 200 31ms req=500d9c64-2268-4af9-a9a8-a12206cbf85a
+2026-11-18T14:01:23.063Z ERROR payments timeout after 5000ms order=839
+2026-11-18T14:01:23.282Z INFO  http GET /orders/9265 200 4ms req=aeff4a20-7256-4dab-aafb-a694b0b6cbf3
+2026-11-18T14:01:23.285Z ERROR payments timeout after 5000ms order=4678
+2026-11-18T14:01:23.466Z INFO  db query orders.by_customer took 60.8ms rows=38
+2026-11-18T14:01:23.540Z INFO  http GET /orders/2792 200 32ms req=ade9c982-08f0-4c77-ae1c-8a01640b2742
+2026-11-18T14:01:23.665Z INFO  db query orders.by_customer took 63.6ms rows=38
+2026-11-18T14:01:23.887Z ERROR payments timeout after 5000ms order=6361
+2026-11-18T14:01:23.967Z INFO  http GET /orders/2480 200 32ms req=41651152-f72a-4024-af86-d5621e9da062
+2026-11-18T14:01:24.036Z INFO  http GET /orders/2401 200 25ms req=3cd6a48b-0aa1-4398-a147-d0861bb8668a
+2026-11-18T14:01:24.066Z INFO  http GET /orders/9407 200 34ms req=d7b64a24-cc41-4e8f-a63b-cb47f99d92cf
+2026-11-18T14:01:24.587Z INFO  db query orders.by_customer took 46.1ms rows=42
+2026-11-18T14:01:24.634Z INFO  http GET /orders/11 200 6ms req=87b578f6-db20-4120-aee4-cefda103ea49
+2026-11-18T14:01:24.973Z INFO  http GET /orders/3662 200 22ms req=8c7a49db-4e14-4976-aeeb-f25c9f4685c3
+2026-11-18T14:01:25.229Z INFO  db query orders.by_customer took 79.1ms rows=6
+2026-11-18T14:01:26.478Z INFO  http GET /orders/2309 200 38ms req=cfc3fc7e-ac13-427c-a465-5f8b1d249fb5
+2026-11-18T14:01:26.541Z INFO  db query orders.by_customer took 47.4ms rows=27
+2026-11-18T14:01:27.117Z INFO  worker heartbeat pid=2879 mem=253MB
+2026-11-18T14:01:27.450Z INFO  http GET /orders/7926 200 8ms req=604b1e53-58d6-441a-adf0-ff7600625bdd
+2026-11-18T14:01:27.631Z INFO  http GET /orders/8488 200 16ms req=d51ed351-46a8-4199-a382-6d171bc332e4
+2026-11-18T14:01:27.675Z INFO  http GET /orders/3627 200 19ms req=45c566c7-5d9e-4d65-ab40-58eb539736cc
+2026-11-18T14:01:28.317Z INFO  http GET /orders/3770 200 7ms req=e6e4e133-c7e2-4989-a893-578b0414faff
+2026-11-18T14:01:28.456Z INFO  http GET /orders/6428 200 24ms req=5e79ca41-b02d-4fc6-a5ec-d00dc0b38dd1
+2026-11-18T14:01:28.669Z INFO  http GET /orders/4520 200 25ms req=af2c59f7-cb7d-4690-a57d-96aaffe1fee4
+2026-11-18T14:01:28.906Z INFO  db query orders.by_customer took 92.2ms rows=45
+2026-11-18T14:01:28.914Z INFO  http GET /orders/4815 200 30ms req=983f3894-87f7-4f35-a0dc-9f492bc9ea0f
+2026-11-18T14:01:29.041Z INFO  http GET /orders/2704 200 34ms req=012b3adb-1169-4659-a271-9647bb2071bc
+2026-11-18T14:01:29.101Z INFO  http GET /orders/8427 200 22ms req=4f0d8bc7-f7f0-48eb-ac75-dc4d09435a8d
+2026-11-18T14:01:29.263Z DEBUG cache miss key=cust:154
+2026-11-18T14:01:29.339Z INFO  db query orders.by_customer took 37.0ms rows=42
+2026-11-18T14:01:29.787Z INFO  http GET /orders/5005 200 5ms req=7eb0b959-b888-42b2-ae51-6232e2d57a76
+2026-11-18T14:01:29.921Z INFO  http GET /orders/3946 200 36ms req=1bdaf75c-f4af-49e1-aa04-52edb38fee3c
+2026-11-18T14:01:29.943Z DEBUG cache hit key=cust:220
+2026-11-18T14:01:30.028Z INFO  http GET /orders/818 200 17ms req=2a3a97bf-0b3f-409f-a7f4-dede63efe9f3
+2026-11-18T14:01:30.130Z INFO  db query orders.by_customer took 52.6ms rows=25
+2026-11-18T14:01:30.632Z INFO  http GET /orders/26 200 21ms req=2de94b6a-c7c0-4f1b-a3c4-f29b84635f0d
+2026-11-18T14:01:30.641Z INFO  http GET /orders/884 200 33ms req=c7e7efc7-15d6-42e0-a9e7-c18940ac8125
+2026-11-18T14:01:30.689Z INFO  http GET /orders/45 200 27ms req=4121ba4f-8c7e-4357-a204-ac460aca0267
+2026-11-18T14:01:30.793Z INFO  db query orders.by_customer took 27.2ms rows=24
+2026-11-18T14:01:30.982Z INFO  worker heartbeat pid=7872 mem=211MB
+2026-11-18T14:01:30.996Z DEBUG cache hit key=cust:99
+2026-11-18T14:01:31.172Z INFO  db query orders.by_customer took 102.3ms rows=45
+2026-11-18T14:01:31.423Z INFO  http GET /orders/2765 200 23ms req=5c96ad6a-9411-4b98-a468-a41280125771
+2026-11-18T14:01:31.485Z INFO  http GET /orders/685 200 5ms req=a7506999-a52e-4086-a9bc-634c38195038
+2026-11-18T14:01:31.983Z DEBUG cache hit key=cust:147
+2026-11-18T14:01:32.599Z INFO  http GET /orders/1184 200 19ms req=ccd58a36-db65-443a-a7bb-27149e268d41
+2026-11-18T14:01:32.619Z DEBUG cache hit key=cust:254
+2026-11-18T14:01:33.002Z INFO  http GET /orders/3172 200 30ms req=d0cb5ee6-df24-4e86-a6e6-c1156c739377
+2026-11-18T14:01:33.497Z INFO  http GET /orders/7036 200 27ms req=4a0b4d92-e38f-4189-a14b-ba11f4e39182
+2026-11-18T14:01:33.530Z INFO  db query orders.by_customer took 38.6ms rows=24
+2026-11-18T14:01:33.578Z INFO  db query orders.by_customer took 43.2ms rows=10
+2026-11-18T14:01:33.696Z INFO  db query orders.by_customer took 52.6ms rows=7
+2026-11-18T14:01:33.776Z ERROR payments timeout after 5000ms order=2426
+2026-11-18T14:01:33.810Z INFO  db query orders.by_customer took 23.9ms rows=13
+2026-11-18T14:01:34.191Z INFO  http GET /orders/2485 200 18ms req=8a83980a-d92a-47d7-a2c5-107f9a6d12ac
+2026-11-18T14:01:34.766Z INFO  db query orders.by_customer took 44.7ms rows=36
+2026-11-18T14:01:35.389Z INFO  db query orders.by_customer took 62.4ms rows=36
+2026-11-18T14:01:35.699Z INFO  http GET /orders/3669 200 31ms req=38819a97-ed72-4204-a8dc-1e1696caa935
+2026-11-18T14:01:35.980Z INFO  http GET /orders/6018 200 32ms req=f351247e-644a-4552-aab6-ff8491356dc1
+2026-11-18T14:01:36.024Z INFO  http GET /orders/9795 200 16ms req=b84dc0df-7777-492a-a5f8-27fe5a2134f4
+2026-11-18T14:01:36.058Z INFO  http GET /orders/4927 200 34ms req=386afe01-485d-41b1-ad51-168baa2244e1
+2026-11-18T14:01:36.373Z INFO  http GET /orders/7483 200 23ms req=602bf16f-3439-4a2c-ab2d-4f190dad945b
+2026-11-18T14:01:36.373Z ERROR inventory reservation failed sku=SKU-529 reason=stale_version
+2026-11-18T14:01:36.443Z INFO  http GET /orders/8999 200 30ms req=1af21c80-2b2a-4816-a0d0-61d6bd20212a
+2026-11-18T14:01:36.451Z DEBUG cache hit key=cust:332
+2026-11-18T14:01:36.906Z INFO  http GET /orders/4123 200 35ms req=0927644f-f9d1-4d8d-ae94-704d2286f51d
+2026-11-18T14:01:37.026Z INFO  http GET /orders/8681 200 29ms req=17c7ea2e-832e-41f9-a122-f274b248614a
+2026-11-18T14:01:37.089Z INFO  db query orders.by_customer took 55.1ms rows=19
+2026-11-18T14:01:37.750Z WARN  payments retry attempt=1 upstream=10.0.3.9:8443
+2026-11-18T14:01:37.750Z WARN  payments retry attempt=2 upstream=10.0.3.38:8443
+2026-11-18T14:01:37.750Z WARN  payments retry attempt=3 upstream=10.0.3.2:8443
+2026-11-18T14:01:38.105Z INFO  http GET /orders/2299 200 37ms req=9f871b3f-50bd-416c-acb3-a686873ffa56
+2026-11-18T14:01:38.117Z INFO  http GET /orders/3122 200 28ms req=f01c3cd9-b6fc-4e8e-a23e-efb351d52f82
+2026-11-18T14:01:38.272Z INFO  http GET /orders/123 200 9ms req=cdb7c116-15ff-4dbc-a64f-02825da9fd84
+2026-11-18T14:01:38.420Z WARN  payments retry attempt=1 upstream=10.0.3.4:8443
+2026-11-18T14:01:38.420Z WARN  payments retry attempt=2 upstream=10.0.3.5:8443
+2026-11-18T14:01:38.420Z WARN  payments retry attempt=3 upstream=10.0.3.3:8443
+2026-11-18T14:01:38.727Z WARN  payments retry attempt=1 upstream=10.0.3.6:8443
+2026-11-18T14:01:38.727Z WARN  payments retry attempt=2 upstream=10.0.3.17:8443
+2026-11-18T14:01:38.727Z WARN  payments retry attempt=3 upstream=10.0.3.2:8443
+2026-11-18T14:01:38.762Z INFO  db query orders.by_customer took 24.4ms rows=14
+2026-11-18T14:01:38.944Z ERROR payments timeout after 5000ms order=4055
+2026-11-18T14:01:39.147Z INFO  worker heartbeat pid=2591 mem=208MB
+2026-11-18T14:01:39.184Z INFO  http GET /orders/122 200 12ms req=e2a94c93-b03b-4e0c-a1dd-c67a20901b1c
+2026-11-18T14:01:39.486Z INFO  db query orders.by_customer took 48.8ms rows=25
+2026-11-18T14:01:39.624Z INFO  http GET /orders/3768 200 6ms req=5c299a0a-c8a5-472a-a598-e2744ad91605
+2026-11-18T14:01:39.798Z DEBUG cache hit key=cust:489
+2026-11-18T14:01:39.920Z WARN  payments retry attempt=1 upstream=10.0.3.24:8443
+2026-11-18T14:01:39.943Z INFO  http GET /orders/1357 200 30ms req=eea81514-cd97-4e53-a8e6-34653b138269
+2026-11-18T14:01:40.155Z DEBUG cache miss key=cust:41
+2026-11-18T14:01:41.960Z INFO  http GET /orders/5348 200 30ms req=6e6ffad6-37fa-4103-a115-a247aa7c5db0
+2026-11-18T14:01:42.142Z INFO  http GET /orders/1956 200 31ms req=99402cde-a6bb-4121-a30b-6961e4ab3ef2
+2026-11-18T14:01:42.242Z INFO  db query orders.by_customer took 59.6ms rows=39
+2026-11-18T14:01:42.254Z INFO  http GET /orders/2945 200 38ms req=d7fa6bbf-947e-44f5-a0e9-a91dfedd1d9d
+2026-11-18T14:01:42.404Z INFO  http GET /orders/1459 200 39ms req=e8892def-3f70-4ee4-a77f-0df86e53a761
+2026-11-18T14:01:42.548Z WARN  payments retry attempt=1 upstream=10.0.3.35:8443
+2026-11-18T14:01:42.548Z WARN  payments retry attempt=2 upstream=10.0.3.13:8443
+2026-11-18T14:01:42.548Z WARN  payments retry attempt=3 upstream=10.0.3.5:8443
+2026-11-18T14:01:42.854Z INFO  db query orders.by_customer took 54.7ms rows=10
+2026-11-18T14:01:43.238Z INFO  http GET /orders/4366 200 17ms req=003396e6-383a-4f19-a82a-f6b4885ea477
+2026-11-18T14:01:43.350Z DEBUG cache miss key=cust:438
+2026-11-18T14:01:43.630Z INFO  http GET /orders/4828 200 10ms req=09aeb4b4-bb24-4a2f-a508-edfd4fb73497
+2026-11-18T14:01:43.850Z INFO  http GET /orders/3485 200 24ms req=afee57d3-a69e-402e-ab6e-6c8a1b1232d9
+2026-11-18T14:01:43.910Z INFO  http GET /orders/7584 200 27ms req=4bcb61ec-4924-4dcc-a771-b24777100134
+2026-11-18T14:01:43.932Z INFO  http GET /orders/6789 200 14ms req=07e58dbf-12e3-4f7e-a4d0-fe48b8d9d732
+2026-11-18T14:01:44.189Z WARN  payments retry attempt=1 upstream=10.0.3.19:8443
+2026-11-18T14:01:44.189Z WARN  payments retry attempt=2 upstream=10.0.3.32:8443
+2026-11-18T14:01:44.189Z WARN  payments retry attempt=3 upstream=10.0.3.33:8443
+2026-11-18T14:01:44.753Z INFO  http GET /orders/7316 200 27ms req=dae190a2-5a1f-4c12-a1c0-b8f697db9a78
+2026-11-18T14:01:44.814Z INFO  http GET /orders/8612 200 12ms req=0fcad36b-f0cf-4ba9-ad51-fa2b2d0ca58f
+2026-11-18T14:01:45.216Z INFO  http GET /orders/7624 200 22ms req=e529da4f-8301-4b64-a28e-95080b82170a
+2026-11-18T14:01:45.305Z INFO  http GET /orders/5953 200 16ms req=227f81c1-0561-4b51-a738-fd9f6f07518e
+2026-11-18T14:01:45.670Z INFO  db query orders.by_customer took 51.1ms rows=26
+2026-11-18T14:01:45.754Z WARN  payments retry attempt=1 upstream=10.0.3.16:8443
+2026-11-18T14:01:45.932Z INFO  http GET /orders/495 200 30ms req=e942fd17-51f9-43f8-a27b-411b2831f2ec
+2026-11-18T14:01:46.059Z WARN  payments retry attempt=1 upstream=10.0.3.27:8443
+2026-11-18T14:01:46.059Z WARN  payments retry attempt=2 upstream=10.0.3.19:8443
+2026-11-18T14:01:46.059Z WARN  payments retry attempt=3 upstream=10.0.3.2:8443
+2026-11-18T14:01:46.142Z INFO  db query orders.by_customer took 72.6ms rows=42
+2026-11-18T14:01:46.484Z WARN  payments retry attempt=1 upstream=10.0.3.22:8443
+2026-11-18T14:01:46.484Z WARN  payments retry attempt=2 upstream=10.0.3.21:8443
+2026-11-18T14:01:46.484Z WARN  payments retry attempt=3 upstream=10.0.3.4:8443
+2026-11-18T14:01:47.533Z INFO  worker heartbeat pid=3243 mem=210MB
+2026-11-18T14:01:48.163Z INFO  http GET /orders/7718 200 13ms req=fc1fa49d-82f5-4569-a8e2-16fdd11b55d3
+2026-11-18T14:01:48.250Z INFO  http GET /orders/7601 200 4ms req=c1072778-f7db-443e-a048-a34b8b1c8329
+2026-11-18T14:01:48.662Z INFO  db query orders.by_customer took 87.9ms rows=5
+2026-11-18T14:01:48.835Z INFO  http GET /orders/138 200 11ms req=36fc1d6a-5a95-495e-a085-68e4d3e3bcae
+2026-11-18T14:01:48.994Z INFO  db query orders.by_customer took 49.2ms rows=3
+2026-11-18T14:01:49.568Z INFO  http GET /orders/9929 200 24ms req=6c7882e7-2765-4e90-aeb1-cfd159d6e9d8
+2026-11-18T14:01:49.970Z INFO  db query orders.by_customer took 40.9ms rows=13
+2026-11-18T14:01:50.314Z INFO  http GET /orders/5966 200 36ms req=4b108c8c-8e96-4955-af3e-7d9d10d95f0d
+2026-11-18T14:01:50.681Z INFO  http GET /orders/5055 200 14ms req=866efb2c-ffa5-4799-acf1-d6432ca1ae3c
+2026-11-18T14:01:50.945Z INFO  http GET /orders/7937 200 35ms req=26673ad5-3519-4dbc-ac66-b18c2266b668
+2026-11-18T14:01:51.143Z INFO  db query orders.by_customer took 90.7ms rows=30
+2026-11-18T14:01:51.225Z INFO  db query orders.by_customer took 76.0ms rows=28
+2026-11-18T14:01:51.287Z INFO  db query orders.by_customer took 60.1ms rows=36
+2026-11-18T14:01:51.865Z INFO  http GET /orders/6446 200 7ms req=7d5ea575-efb2-454a-a273-99efcc791fd1
+2026-11-18T14:01:51.884Z INFO  http GET /orders/3415 200 30ms req=db29c7a6-07b1-4aa8-a133-165ad1361f64
+2026-11-18T14:01:51.987Z INFO  http GET /orders/1889 200 30ms req=474e51ca-a98e-4e72-a5af-d36033415780
+2026-11-18T14:01:52.137Z INFO  db query orders.by_customer took 28.9ms rows=12
+2026-11-18T14:01:52.155Z DEBUG cache hit key=cust:338
+2026-11-18T14:01:52.248Z INFO  http GET /orders/3826 200 19ms req=2740fd6b-73cd-40d6-a0b3-28cd49c0414c
+2026-11-18T14:01:52.631Z INFO  db query orders.by_customer took 66.7ms rows=15
+2026-11-18T14:01:52.855Z INFO  db query orders.by_customer took 39.2ms rows=17
+2026-11-18T14:01:53.278Z INFO  http GET /orders/4878 200 37ms req=14a52542-4ce3-43b6-a607-ce91d366febb
+2026-11-18T14:01:54.300Z INFO  http GET /orders/6478 200 33ms req=4ca3559a-85ef-419b-ac59-356dc39858f3
+2026-11-18T14:01:55.142Z INFO  worker heartbeat pid=5490 mem=254MB
+2026-11-18T14:01:55.832Z INFO  db query orders.by_customer took 25.4ms rows=45
+2026-11-18T14:01:55.945Z INFO  http GET /orders/5425 200 29ms req=3a552b51-0c73-43ee-ad48-f7f41d6dadbd
+2026-11-18T14:01:56.094Z INFO  http GET /orders/3336 200 19ms req=d17a544e-75dd-4e15-aa83-bef79875d26e
+2026-11-18T14:01:56.129Z INFO  http GET /orders/1690 200 3ms req=ee4b6725-84a1-4c21-abd4-c9961bb66cf9
+2026-11-18T14:01:56.638Z INFO  http GET /orders/5063 200 26ms req=a455e2bb-3928-432c-af0e-b7e4fc2e8f07
+2026-11-18T14:01:57.572Z INFO  http GET /orders/1874 200 3ms req=3b9090b0-fd6e-4073-aadb-d4dfe424a96b
+2026-11-18T14:01:57.679Z DEBUG cache hit key=cust:498
+2026-11-18T14:01:57.743Z INFO  http GET /orders/5770 200 8ms req=59e8d054-0fcd-4150-a3dc-32802bf6cdb9
+2026-11-18T14:01:57.752Z INFO  http GET /orders/5391 200 26ms req=da574258-8c07-4749-acd1-d3f3d9b39141
+2026-11-18T14:01:58.286Z INFO  http GET /orders/8056 200 23ms req=02d09566-eebb-4dac-a1d4-4d3b6308633d
+2026-11-18T14:01:58.736Z INFO  http GET /orders/6570 200 19ms req=6da6320a-bcf9-474a-a94f-8fc7e24bce4e
+2026-11-18T14:01:58.789Z INFO  db query orders.by_customer took 49.0ms rows=5
+2026-11-18T14:01:58.864Z INFO  http GET /orders/8361 200 11ms req=b3cf00b6-f631-4478-a921-2f14dff00f32
+2026-11-18T14:01:58.902Z INFO  db query orders.by_customer took 81.2ms rows=24
+2026-11-18T14:01:58.930Z DEBUG cache miss key=cust:135
+2026-11-18T14:01:59.160Z INFO  http GET /orders/6765 200 36ms req=4a975edb-4266-4534-afc6-07588187116d
+2026-11-18T14:01:59.539Z INFO  http GET /orders/7546 200 28ms req=24b03d6e-144e-4f9b-a860-e90e7ee90499
+2026-11-18T14:01:59.775Z INFO  http GET /orders/3363 200 26ms req=ae4340f0-4831-47fa-af94-13e18e013d3d
+2026-11-18T14:01:59.939Z INFO  http GET /orders/5905 200 26ms req=25fae329-c4d0-4db2-a2cb-b3cbe8224e8f
+2026-11-18T14:02:00.612Z INFO  db query orders.by_customer took 40.2ms rows=16
+2026-11-18T14:02:00.865Z DEBUG cache miss key=cust:68
+2026-11-18T14:02:01.013Z INFO  db query orders.by_customer took 46.9ms rows=37
+2026-11-18T14:02:02.369Z DEBUG cache miss key=cust:42
+2026-11-18T14:02:02.814Z INFO  http GET /orders/2430 200 16ms req=7c656ceb-b82d-4649-a759-0baed158c8dc
+2026-11-18T14:02:03.147Z INFO  db query orders.by_customer took 29.4ms rows=33
+2026-11-18T14:02:03.189Z INFO  db query orders.by_customer took 62.8ms rows=31
+2026-11-18T14:02:03.274Z INFO  http GET /orders/7076 200 25ms req=6f982e83-1499-436e-a06d-9355f2f2079c
+2026-11-18T14:02:03.775Z DEBUG cache miss key=cust:372
+2026-11-18T14:02:03.996Z INFO  http GET /orders/7550 200 21ms req=9a484471-d09d-4bba-a422-420c0456ff4d
+2026-11-18T14:02:04.194Z INFO  http GET /orders/5138 200 12ms req=5f6bdd02-24f9-47e0-a0ec-60fc1abbe7be
+2026-11-18T14:02:04.251Z WARN  payments retry attempt=1 upstream=10.0.3.5:8443
+2026-11-18T14:02:04.482Z INFO  http GET /orders/3688 200 25ms req=cb0d38e2-469f-4abd-aad5-760176a48f04
+2026-11-18T14:02:05.189Z INFO  db query orders.by_customer took 39.9ms rows=31
+2026-11-18T14:02:05.727Z DEBUG cache miss key=cust:293
+2026-11-18T14:02:06.139Z INFO  http GET /orders/1843 200 9ms req=21b9b64c-e462-46aa-a17d-2500be132466
+2026-11-18T14:02:06.160Z INFO  http GET /orders/7391 200 22ms req=5491020c-1fd5-4ad4-a953-a4bb8f2aac97
+2026-11-18T14:02:06.501Z INFO  http GET /orders/1737 200 24ms req=6f93b8e3-eec4-470c-a65d-8b6d9f600943
+2026-11-18T14:02:06.582Z INFO  http GET /orders/7195 200 4ms req=d4a3f304-2420-443c-afa4-0b24a8aba4b0
+2026-11-18T14:02:06.724Z INFO  db query orders.by_customer took 92.0ms rows=20
+2026-11-18T14:02:06.758Z INFO  db query orders.by_customer took 59.8ms rows=46
+2026-11-18T14:02:07.319Z INFO  db query orders.by_customer took 42.5ms rows=30
+2026-11-18T14:02:07.570Z INFO  http GET /orders/440 200 36ms req=87f37f10-0020-4fa3-a6b8-3d13e50d6aa4
+2026-11-18T14:02:08.050Z INFO  http GET /orders/9302 200 38ms req=1bd6f237-ce81-4836-adb9-d3a3d2917bc5
+2026-11-18T14:02:08.165Z INFO  http GET /orders/6912 200 35ms req=e5bf3f30-1f01-4e07-abcb-f890bf976012
+2026-11-18T14:02:08.309Z INFO  http GET /orders/321 200 25ms req=606a9bab-896a-4073-ad7b-d3f00c438e6b
+2026-11-18T14:02:08.329Z INFO  http GET /orders/4574 200 33ms req=2df89c15-b142-479a-a1f6-250c3b299685
+2026-11-18T14:02:08.917Z WARN  payments retry attempt=1 upstream=10.0.3.17:8443
+2026-11-18T14:02:08.919Z INFO  db query orders.by_customer took 37.9ms rows=19
+2026-11-18T14:02:09.261Z INFO  http GET /orders/8858 200 13ms req=2e4eece2-745f-4e3f-aef4-ae3b65ebacf3
+2026-11-18T14:02:09.413Z DEBUG cache hit key=cust:97
+2026-11-18T14:02:09.487Z INFO  http GET /orders/8577 200 10ms req=a0774e56-fec8-4019-a0ed-f9e1ede4d003
+2026-11-18T14:02:09.833Z INFO  http GET /orders/5253 200 6ms req=9a857a57-264e-4da6-a33f-2d9df22a1e21
+2026-11-18T14:02:09.981Z INFO  http GET /orders/7409 200 34ms req=80818b05-5b8c-4b51-a497-20ac94217f08
+2026-11-18T14:02:10.046Z INFO  http GET /orders/1881 200 4ms req=510bf433-f08f-41c9-aaba-efa04e51c8f1
+2026-11-18T14:02:10.826Z INFO  db query orders.by_customer took 33.4ms rows=41
+2026-11-18T14:02:10.999Z INFO  http GET /orders/3177 200 32ms req=9652e509-16e3-4331-a2cd-b7e359efbe3d
+2026-11-18T14:02:11.118Z INFO  db query orders.by_customer took 42.4ms rows=33
+2026-11-18T14:02:11.233Z WARN  payments retry attempt=1 upstream=10.0.3.9:8443
+2026-11-18T14:02:11.813Z INFO  db query orders.by_customer took 49.0ms rows=19
+2026-11-18T14:02:11.887Z WARN  payments retry attempt=1 upstream=10.0.3.32:8443
+2026-11-18T14:02:11.887Z WARN  payments retry attempt=2 upstream=10.0.3.27:8443
+2026-11-18T14:02:11.887Z WARN  payments retry attempt=3 upstream=10.0.3.15:8443
+2026-11-18T14:02:12.107Z INFO  http GET /orders/6594 200 20ms req=fa44c3c7-2679-4a09-a44b-f3cf533d292a
+2026-11-18T14:02:12.205Z INFO  http GET /orders/7511 200 11ms req=1b8135b4-a191-421f-a343-5f96ed9e1700
+2026-11-18T14:02:12.356Z INFO  http GET /orders/5207 200 17ms req=82665aab-c12a-4369-acd7-dbd7fffec3b2
+2026-11-18T14:02:12.460Z DEBUG cache miss key=cust:199
+2026-11-18T14:02:12.468Z INFO  db query orders.by_customer took 48.6ms rows=48
+2026-11-18T14:02:13.309Z INFO  http GET /orders/9133 200 3ms req=85f691d8-3b14-4c11-af6d-7c863315c639
+2026-11-18T14:02:13.497Z INFO  http GET /orders/4253 200 9ms req=8627599c-d70b-4b2f-abce-bb59ebedb161
+2026-11-18T14:02:13.628Z INFO  db query orders.by_customer took 98.9ms rows=21
+2026-11-18T14:02:14.079Z INFO  db query orders.by_customer took 40.1ms rows=43
+2026-11-18T14:02:14.710Z INFO  http GET /orders/1781 200 16ms req=9fff7c6a-ff4f-4ba1-a0be-301e3f0d59b1
+2026-11-18T14:02:14.846Z INFO  db query orders.by_customer took 63.8ms rows=14
+2026-11-18T14:02:14.954Z ERROR payments timeout after 5000ms order=1514
+2026-11-18T14:02:15.110Z INFO  http GET /orders/233 200 36ms req=cceb0932-f467-46b0-a60a-434bc71a5470
+2026-11-18T14:02:15.222Z INFO  db query orders.by_customer took 72.4ms rows=9
+2026-11-18T14:02:15.633Z INFO  db query orders.by_customer took 43.8ms rows=28
+2026-11-18T14:02:15.743Z INFO  db query orders.by_customer took 47.1ms rows=35
+2026-11-18T14:02:16.421Z INFO  db query orders.by_customer took 28.5ms rows=13
+2026-11-18T14:02:16.560Z INFO  http GET /orders/4715 200 21ms req=95de1ed4-cba8-4ded-a333-47683eec9a9e
+2026-11-18T14:02:17.550Z INFO  http GET /orders/1989 200 35ms req=7c570e53-f62b-4fb7-af39-d351d00de298
+2026-11-18T14:02:18.438Z INFO  http GET /orders/542 200 31ms req=d8b1a802-fe0f-4918-ac00-8b2edd397438
+2026-11-18T14:02:18.438Z ERROR inventory reservation failed sku=SKU-235 reason=stale_version
+2026-11-18T14:02:18.460Z INFO  http GET /orders/4824 200 3ms req=788f6592-1082-4cb2-ae20-24ec0ccac847
+2026-11-18T14:02:18.694Z WARN  payments retry attempt=1 upstream=10.0.3.4:8443
+2026-11-18T14:02:18.760Z INFO  http GET /orders/1190 200 31ms req=8a00df91-aaa7-48f7-a26c-0595db0c3c88
+2026-11-18T14:02:18.852Z WARN  payments retry attempt=1 upstream=10.0.3.2:8443
+2026-11-18T14:02:19.114Z INFO  http GET /orders/6414 200 7ms req=a0de698e-eb71-4df2-a1af-bb084d542605
+2026-11-18T14:02:19.381Z DEBUG cache miss key=cust:17
+2026-11-18T14:02:19.420Z INFO  http GET /orders/9653 200 31ms req=7c35a2a9-9f69-45e1-a266-1dd38c335d5e
+2026-11-18T14:02:19.459Z WARN  payments retry attempt=1 upstream=10.0.3.38:8443
+2026-11-18T14:02:19.481Z INFO  db query orders.by_customer took 44.4ms rows=6
+2026-11-18T14:02:19.502Z INFO  http GET /orders/1377 200 35ms req=c71c08ed-3bc2-4db5-aa56-3d7454de1a99
+2026-11-18T14:02:19.546Z INFO  http GET /orders/6091 200 16ms req=4ce29ebf-a31f-4402-a962-b5a1e31e87e5
+2026-11-18T14:02:19.547Z INFO  http GET /orders/3101 200 18ms req=94cab8ce-7fc6-4ee0-a218-61902db9d962
+2026-11-18T14:02:19.682Z INFO  http GET /orders/5904 200 14ms req=a95a9a99-9631-433f-a6a5-6126920a57e9
+2026-11-18T14:02:20.372Z WARN  payments retry attempt=1 upstream=10.0.3.20:8443
+2026-11-18T14:02:20.372Z WARN  payments retry attempt=2 upstream=10.0.3.19:8443
+2026-11-18T14:02:20.372Z WARN  payments retry attempt=3 upstream=10.0.3.24:8443
+2026-11-18T14:02:20.518Z DEBUG cache hit key=cust:123
+2026-11-18T14:02:20.937Z WARN  payments retry attempt=1 upstream=10.0.3.33:8443
+2026-11-18T14:02:20.937Z WARN  payments retry attempt=2 upstream=10.0.3.28:8443
+2026-11-18T14:02:20.937Z WARN  payments retry attempt=3 upstream=10.0.3.14:8443
+2026-11-18T14:02:21.090Z INFO  http GET /orders/1204 200 29ms req=ad139cdf-8797-4cc4-a50c-3b870beaffdf
+2026-11-18T14:02:21.756Z INFO  http GET /orders/3458 200 30ms req=8338dcaa-6184-499d-a754-cbc01838a00e
+2026-11-18T14:02:21.942Z INFO  db query orders.by_customer took 67.1ms rows=6
+2026-11-18T14:02:22.060Z INFO  http GET /orders/6910 200 37ms req=f0314fc6-ad8e-4c30-a4b4-cbac821207d6
+2026-11-18T14:02:22.131Z INFO  http GET /orders/4194 200 5ms req=30b883e5-133a-4dae-a3a1-412815e11acd
+2026-11-18T14:02:22.820Z INFO  db query orders.by_customer took 69.1ms rows=43
+2026-11-18T14:02:22.908Z INFO  http GET /orders/7431 200 28ms req=f82903a8-94fe-4e8f-a738-ac816cf7e6d4
+2026-11-18T14:02:23.714Z INFO  db query orders.by_customer took 62.8ms rows=15
+2026-11-18T14:02:23.823Z INFO  http GET /orders/3390 200 27ms req=24d47160-b75f-4802-ade6-c105726e903b
+2026-11-18T14:02:23.882Z INFO  http GET /orders/6227 200 10ms req=9d6f2014-82a0-48d4-a171-a331ad7af579
+2026-11-18T14:02:24.004Z INFO  http GET /orders/2652 200 3ms req=847fde4d-f7f5-4968-ab9c-ccfcd53191c5
+2026-11-18T14:02:24.595Z DEBUG cache miss key=cust:32
+2026-11-18T14:02:24.699Z INFO  http GET /orders/788 200 12ms req=7a8c42d8-47c3-4bee-a2db-7f568c5183ea
+2026-11-18T14:02:24.753Z INFO  http GET /orders/2432 200 21ms req=d69114da-4ebe-46b3-ab1a-2f39124bb22b
+2026-11-18T14:02:24.790Z DEBUG cache hit key=cust:261
+2026-11-18T14:02:24.844Z INFO  http GET /orders/6478 200 8ms req=0d56c722-34b3-49b1-a605-f87453e6846d
+2026-11-18T14:02:24.887Z INFO  http GET /orders/8445 200 37ms req=276e2bf2-5a3e-4e54-a4f2-0a4a2e480c2d
+2026-11-18T14:02:24.948Z ERROR payments timeout after 5000ms order=8767
+2026-11-18T14:02:25.525Z INFO  db query orders.by_customer took 47.5ms rows=12
+2026-11-18T14:02:26.042Z INFO  http GET /orders/7294 200 22ms req=ac22c29c-6635-4cd9-abda-0695b2a85839
+2026-11-18T14:02:26.063Z INFO  db query orders.by_customer took 46.6ms rows=41
+2026-11-18T14:02:26.373Z INFO  http GET /orders/3978 200 21ms req=d35efe6a-08e6-403b-aef5-7a32f91f8268
+2026-11-18T14:02:26.463Z INFO  http GET /orders/5024 200 10ms req=066a2115-1b01-4349-a6df-aa13ebebe8ad
+2026-11-18T14:02:26.713Z DEBUG cache miss key=cust:2
+2026-11-18T14:02:26.807Z INFO  db query orders.by_customer took 59.4ms rows=25
+2026-11-18T14:02:27.399Z INFO  http GET /orders/6990 200 37ms req=dd7ce13f-c77a-40d6-a77d-5385d723c72f
+2026-11-18T14:02:27.526Z INFO  http GET /orders/7131 200 34ms req=4ff4f92e-faea-4e6c-ac2c-9ce417604bbd
+2026-11-18T14:02:27.781Z INFO  http GET /orders/730 200 37ms req=bdc1a82f-1028-407f-a8ee-88b1b3017155
+2026-11-18T14:02:28.177Z INFO  db query orders.by_customer took 79.7ms rows=35
+2026-11-18T14:02:28.278Z INFO  http GET /orders/4147 200 18ms req=5d8de3e9-911c-408a-a2e1-38fe6d5e9aa6
+2026-11-18T14:02:28.295Z DEBUG cache hit key=cust:272
+2026-11-18T14:02:29.362Z INFO  db query orders.by_customer took 47.1ms rows=37
+2026-11-18T14:02:29.629Z INFO  db query orders.by_customer took 71.8ms rows=42
+2026-11-18T14:02:30.263Z INFO  http GET /orders/7162 200 15ms req=2f61d870-e27e-4003-ac3b-0cf833c4030a
+2026-11-18T14:02:30.881Z INFO  http GET /orders/9054 200 11ms req=29471b11-0142-4d15-a6d0-3ef208197b07
+2026-11-18T14:02:31.363Z INFO  worker heartbeat pid=5601 mem=205MB
+2026-11-18T14:02:31.505Z ERROR payments timeout after 5000ms order=6050
+2026-11-18T14:02:31.518Z INFO  http GET /orders/8058 200 29ms req=0fcc4c13-685c-49b2-a6da-ec22965b4ffd
+2026-11-18T14:02:31.612Z INFO  db query orders.by_customer took 47.7ms rows=8
+2026-11-18T14:02:31.926Z INFO  http GET /orders/2250 200 18ms req=f2e59f14-0947-4dfa-a243-bb9e0ca5be63
+2026-11-18T14:02:32.022Z INFO  db query orders.by_customer took 49.0ms rows=11
+2026-11-18T14:02:32.176Z INFO  http GET /orders/1161 200 36ms req=92f91953-2da0-4bbc-af24-1f30a07fea84
+2026-11-18T14:02:32.549Z INFO  http GET /orders/9497 200 8ms req=8a425340-ea2b-4eec-ab5a-bb7f6c93d841
+2026-11-18T14:02:32.758Z INFO  http GET /orders/6438 200 28ms req=1b380fb3-df3a-44cc-a3aa-0b64c7a5f39c
+2026-11-18T14:02:33.008Z WARN  payments retry attempt=1 upstream=10.0.3.9:8443
+2026-11-18T14:02:33.008Z WARN  payments retry attempt=2 upstream=10.0.3.26:8443
+2026-11-18T14:02:33.008Z WARN  payments retry attempt=3 upstream=10.0.3.30:8443
+2026-11-18T14:02:33.119Z INFO  db query orders.by_customer took 51.8ms rows=18
+2026-11-18T14:02:33.167Z INFO  http GET /orders/2125 200 37ms req=9be2b8eb-7808-4117-abfc-5164dbc6b330
+2026-11-18T14:02:33.841Z INFO  http GET /orders/1005 200 7ms req=0f31f5bc-50be-4144-a25b-8000fc3f64fc
+2026-11-18T14:02:34.193Z INFO  http GET /orders/7446 200 39ms req=5c6d4f69-ebe7-47a2-a0c4-ddb4afa49ebf
+2026-11-18T14:02:34.813Z INFO  db query orders.by_customer took 46.7ms rows=0
+2026-11-18T14:02:35.028Z DEBUG cache hit key=cust:252
+2026-11-18T14:02:35.255Z INFO  worker heartbeat pid=1723 mem=257MB
+2026-11-18T14:02:35.947Z INFO  http GET /orders/8296 200 31ms req=1dd3fb40-924a-4527-a899-936b70fccc21
+2026-11-18T14:02:36.332Z INFO  http GET /orders/4688 200 5ms req=e935a25f-885d-4762-a96e-4dce2643c81b
+2026-11-18T14:02:36.542Z DEBUG cache miss key=cust:135
+2026-11-18T14:02:37.319Z INFO  db query orders.by_customer took 53.6ms rows=16
+2026-11-18T14:02:37.330Z INFO  http GET /orders/7966 200 23ms req=40e919a9-c497-43c3-a56c-eacc14a1bf4a
+2026-11-18T14:02:37.485Z INFO  http GET /orders/2098 200 11ms req=c6a215c7-14cc-4828-a950-f9a377ec111f
+2026-11-18T14:02:37.972Z INFO  http GET /orders/3426 200 31ms req=60aeeb41-ff0a-40e2-a049-a494f6391c30
+2026-11-18T14:02:37.972Z WARN  feature flag 'fast_checkout' enabled for 100% of traffic
+2026-11-18T14:02:38.216Z INFO  http GET /orders/2648 200 22ms req=36d92b1c-a954-4333-aeb6-54fc63a56358
+2026-11-18T14:02:38.493Z INFO  http GET /orders/3993 200 9ms req=c43e719d-9f19-49b9-a8c1-8773120085a1
+2026-11-18T14:02:38.666Z INFO  db query orders.by_customer took 79.4ms rows=24
+2026-11-18T14:02:38.884Z ERROR payments timeout after 5000ms order=326
+2026-11-18T14:02:38.986Z INFO  http GET /orders/4203 200 29ms req=ce0f7ae5-ae6b-4cbf-a626-6e673e7aabad
+2026-11-18T14:02:39.321Z INFO  http GET /orders/4382 200 27ms req=c9694420-8a5c-493b-a8e4-b44f116397d4
+2026-11-18T14:02:39.799Z INFO  db query orders.by_customer took 79.2ms rows=25
+2026-11-18T14:02:39.810Z INFO  http GET /orders/8174 200 28ms req=65fe0b94-ace2-4645-a62a-03fc73d89750
+2026-11-18T14:02:39.868Z INFO  db query orders.by_customer took 61.4ms rows=27
+2026-11-18T14:02:39.875Z INFO  http GET /orders/3098 200 35ms req=47de44e5-059b-4c6b-a0b2-bd8a7c8378a2
+2026-11-18T14:02:39.993Z INFO  http GET /orders/2605 200 22ms req=48ab7aea-e1b1-4ee4-af68-1447f40ab507
+2026-11-18T14:02:40.003Z INFO  http GET /orders/2678 200 27ms req=4cfb1453-95cd-44ae-a080-86019d52e05b
+2026-11-18T14:02:40.673Z INFO  http GET /orders/1492 200 5ms req=a154d64b-7e38-4438-ad08-c82972fc88ff
+2026-11-18T14:02:40.698Z INFO  http GET /orders/8609 200 12ms req=278fee50-4ea9-450e-a7e3-92d897a9c883
+2026-11-18T14:02:40.897Z INFO  db query orders.by_customer took 85.9ms rows=20
+2026-11-18T14:02:41.029Z DEBUG cache miss key=cust:58
+2026-11-18T14:02:41.349Z WARN  payments retry attempt=1 upstream=10.0.3.17:8443
+2026-11-18T14:02:41.426Z INFO  http GET /orders/2646 200 11ms req=b776c67b-db47-4825-a534-a7c53eab2d0e
+2026-11-18T14:02:41.440Z INFO  http GET /orders/870 200 14ms req=5b4af494-2104-4ddb-ae55-3f9f9e40e020
+2026-11-18T14:02:42.210Z INFO  http GET /orders/5861 200 36ms req=60d41e58-cf17-4aac-aae3-7f96e03c1c1f
+2026-11-18T14:02:42.553Z WARN  payments retry attempt=1 upstream=10.0.3.6:8443
+2026-11-18T14:02:42.553Z WARN  payments retry attempt=2 upstream=10.0.3.25:8443
+2026-11-18T14:02:42.553Z WARN  payments retry attempt=3 upstream=10.0.3.36:8443
+2026-11-18T14:02:42.824Z INFO  http GET /orders/1573 200 3ms req=afbdcb31-4f85-40b0-ae65-5aa791d24832
+2026-11-18T14:02:43.261Z INFO  http GET /orders/2474 200 10ms req=92e5a750-2dd6-4764-a1be-5f86376ebcaa
+2026-11-18T14:02:43.522Z DEBUG cache hit key=cust:26
+2026-11-18T14:02:44.203Z INFO  db query orders.by_customer took 87.4ms rows=39
+2026-11-18T14:02:44.321Z INFO  http GET /orders/3165 200 13ms req=26378dd2-d95c-456d-a5f3-60f09e3a2bdf
+2026-11-18T14:02:44.326Z INFO  http GET /orders/8529 200 36ms req=436c8d90-77e2-43b9-ae1a-151dcc2ad29d
+2026-11-18T14:02:44.331Z INFO  db query orders.by_customer took 41.7ms rows=31
+2026-11-18T14:02:44.507Z INFO  http GET /orders/8829 200 18ms req=3acf74ed-3d61-40e6-a5f1-dce82b428dc0
+2026-11-18T14:02:44.585Z INFO  http GET /orders/8938 200 5ms req=c0345ffb-c3bb-4e5f-aa28-993cc999fb19
+2026-11-18T14:02:44.685Z WARN  payments retry attempt=1 upstream=10.0.3.36:8443
+2026-11-18T14:02:44.756Z INFO  db query orders.by_customer took 101.6ms rows=25
+2026-11-18T14:02:44.927Z INFO  db query orders.by_customer took 59.7ms rows=41
+2026-11-18T14:02:44.975Z INFO  db query orders.by_customer took 39.6ms rows=13
+2026-11-18T14:02:45.340Z INFO  http GET /orders/5796 200 17ms req=8f19b989-25e1-473c-a0a9-829d615ec0ba
+2026-11-18T14:02:45.665Z INFO  db query orders.by_customer took 62.9ms rows=10
+2026-11-18T14:02:46.159Z INFO  http GET /orders/7393 200 33ms req=46f3f4d4-96a9-4443-aaf2-df808cbbb30f
+2026-11-18T14:02:46.222Z INFO  http GET /orders/6535 200 20ms req=2d41bd82-845b-4987-a738-ea419ef17954
+2026-11-18T14:02:46.275Z INFO  http GET /orders/1850 200 40ms req=ae15acd1-7dff-492c-aab6-ac73f0fa5b97
+2026-11-18T14:02:46.278Z INFO  http GET /orders/842 200 16ms req=7d16ab34-62a6-4435-a9d0-4447d7a1e830
+2026-11-18T14:02:46.753Z WARN  payments retry attempt=1 upstream=10.0.3.28:8443
+2026-11-18T14:02:46.837Z INFO  db query orders.by_customer took 54.0ms rows=12
+2026-11-18T14:02:46.931Z INFO  http GET /orders/3150 200 30ms req=b33f8e26-cb9b-40a0-ab79-9ab4d4a3f355
+2026-11-18T14:02:46.960Z INFO  http GET /orders/5195 200 24ms req=9514849b-9177-4e99-ab44-2db744fa7a46
+2026-11-18T14:02:46.997Z INFO  http GET /orders/7247 200 10ms req=e18cb9a4-4484-49b6-a70f-effa28e09b51
+2026-11-18T14:02:47.201Z INFO  http GET /orders/2135 200 16ms req=41cf810b-f155-44f3-adc4-d016690b084a
+2026-11-18T14:02:47.395Z WARN  payments retry attempt=1 upstream=10.0.3.17:8443
+2026-11-18T14:02:47.430Z INFO  http GET /orders/4108 200 6ms req=e39cc1b5-cd08-4906-aa97-c9b4116e0de2
+2026-11-18T14:02:48.276Z INFO  http GET /orders/8466 200 3ms req=e1b28ae3-0eb6-49aa-afdd-09633eec440e
+2026-11-18T14:02:48.560Z INFO  http GET /orders/2894 200 5ms req=7e7e75f4-c7b6-4a09-a0f5-e11e8a8aa463
+2026-11-18T14:02:49.149Z INFO  http GET /orders/7758 200 25ms req=83ef1efe-9e10-462e-a4e0-07e05a9a6c0b
+2026-11-18T14:02:49.471Z INFO  http GET /orders/2523 200 33ms req=29e70220-6fed-40f9-aad0-8662b3e32e4b
+2026-11-18T14:02:49.525Z INFO  http GET /orders/9537 200 3ms req=d3c1a60f-8b06-49c1-aba3-2db077ab38cd
+2026-11-18T14:02:49.580Z INFO  http GET /orders/3687 200 28ms req=91037d01-9ed0-4658-a12d-b48ff1cf6d14
+2026-11-18T14:02:49.684Z INFO  worker heartbeat pid=3883 mem=244MB
+2026-11-18T14:02:49.695Z INFO  http GET /orders/2199 200 3ms req=6d6f5f96-9785-4e88-a4e4-4b126f753b51
+2026-11-18T14:02:49.906Z INFO  http GET /orders/8461 200 32ms req=6f8e5ed8-3711-4cb0-a38d-7060f5f1c837
+2026-11-18T14:02:50.644Z DEBUG cache hit key=cust:149
+2026-11-18T14:02:50.739Z INFO  http GET /orders/906 200 9ms req=f2a8771b-a52a-41e4-a8fd-7bde1e5b5fc5
+2026-11-18T14:02:50.895Z INFO  http GET /orders/4722 200 37ms req=4465c32d-0ee5-4941-a53e-7005b9371dd0
+2026-11-18T14:02:51.367Z ERROR payments timeout after 5000ms order=6929
+2026-11-18T14:02:51.477Z DEBUG cache miss key=cust:392
+2026-11-18T14:02:51.611Z INFO  http GET /orders/4540 200 3ms req=4b2c73bf-c062-4764-a779-357a3df05827
+2026-11-18T14:02:51.973Z INFO  http GET /orders/3021 200 36ms req=fd85bc63-72d0-4f6a-aaac-355b2ceaebed
+2026-11-18T14:02:51.996Z INFO  http GET /orders/2513 200 38ms req=2aa8df82-2ba5-4684-a2b1-3696d85cbfdc
+2026-11-18T14:02:52.062Z INFO  http GET /orders/1836 200 17ms req=6a217081-540a-4be8-ac34-ee08d5a01cce
+2026-11-18T14:02:52.307Z INFO  db query orders.by_customer took 66.0ms rows=23
+2026-11-18T14:02:52.435Z INFO  db query orders.by_customer took 57.3ms rows=1
+2026-11-18T14:02:52.522Z INFO  http GET /orders/4500 200 5ms req=8699d6fb-c309-40fd-a494-179f0e106daf
+2026-11-18T14:02:52.537Z INFO  http GET /orders/6690 200 27ms req=fb6991a2-45e8-456b-af45-3ec2594372ce
+2026-11-18T14:02:52.695Z INFO  http GET /orders/8319 200 28ms req=d3de15c2-9d2c-469b-a755-38bc6f38c37a
+2026-11-18T14:02:52.815Z INFO  worker heartbeat pid=8016 mem=243MB
+2026-11-18T14:02:53.211Z INFO  http GET /orders/5584 200 8ms req=1803a983-40e2-4da9-af75-51d63db139b0
+2026-11-18T14:02:53.516Z INFO  db query orders.by_customer took 39.9ms rows=23
+2026-11-18T14:02:53.936Z INFO  http GET /orders/3145 200 9ms req=6296789a-c3a3-4014-a3c7-b5d08b8aa3d0
+2026-11-18T14:02:53.936Z ERROR inventory reservation failed sku=SKU-297 reason=stale_version
+2026-11-18T14:02:54.264Z INFO  http GET /orders/9782 200 16ms req=f53c893c-3b1c-40ad-a69f-bb5fe19b5cd5
+2026-11-18T14:02:54.746Z INFO  http GET /orders/9364 200 16ms req=f2161e2c-9eb5-4cd1-a08c-c2ffb628bf13
+2026-11-18T14:02:55.031Z INFO  http GET /orders/3608 200 10ms req=f97487ff-6421-44a8-a2be-4ac89813774e
+2026-11-18T14:02:55.364Z INFO  http GET /orders/7113 200 24ms req=60bd250d-246e-45c2-aee0-5a0348b70083
+2026-11-18T14:02:55.803Z INFO  http GET /orders/2734 200 12ms req=5b4e6012-8a55-43da-af9e-84fe4e1c2f72
+2026-11-18T14:02:55.995Z WARN  payments retry attempt=1 upstream=10.0.3.34:8443
+2026-11-18T14:02:56.242Z INFO  http GET /orders/9181 200 29ms req=9fd89b26-cf5f-4de2-aaa0-5da3a4158d73
+2026-11-18T14:02:56.242Z INFO  http GET /orders/6005 200 21ms req=f13794b6-1faf-44c4-a9dc-2e6780480fbc
+2026-11-18T14:02:56.283Z ERROR payments timeout after 5000ms order=8972
+2026-11-18T14:02:56.349Z INFO  http GET /orders/9396 200 12ms req=09a994f2-0e40-4fc1-a1e1-7f382f0f711a
+2026-11-18T14:02:56.368Z INFO  db query orders.by_customer took 29.5ms rows=25
+2026-11-18T14:02:56.403Z INFO  db query orders.by_customer took 39.0ms rows=31
+2026-11-18T14:02:56.554Z INFO  db query orders.by_customer took 42.8ms rows=2
+2026-11-18T14:02:59.490Z INFO  http GET /orders/586 200 40ms req=09b9f640-2f2e-438e-a9d0-4836b8513a9a
+2026-11-18T14:02:59.518Z DEBUG cache miss key=cust:303
+2026-11-18T14:02:59.664Z DEBUG cache miss key=cust:280
+2026-11-18T14:02:59.930Z INFO  http GET /orders/8259 200 26ms req=5eab2ea5-e533-4986-a4b5-f3748f0ce7ce
+2026-11-18T14:03:00.224Z INFO  db query orders.by_customer took 44.6ms rows=6
+2026-11-18T14:03:00.615Z INFO  http GET /orders/6836 200 27ms req=3a931e86-ceaa-4532-a34d-b3bf09a372f8
+2026-11-18T14:03:01.194Z WARN  payments retry attempt=1 upstream=10.0.3.39:8443
+2026-11-18T14:03:01.311Z INFO  http GET /orders/7733 200 15ms req=12bc8a49-1a79-4541-ad9f-59162df6c155
+2026-11-18T14:03:01.318Z INFO  http GET /orders/9792 200 4ms req=bfcbc3b0-f1dc-4fb3-a28c-32b3dd89c743
+2026-11-18T14:03:01.342Z INFO  http GET /orders/3566 200 4ms req=73ee3b95-da8f-441e-a0f9-6604c8a317b8
+2026-11-18T14:03:01.390Z INFO  http GET /orders/5962 200 26ms req=a1022268-d6d2-47d2-a708-2d8c54c9026a
+2026-11-18T14:03:01.412Z INFO  http GET /orders/459 200 15ms req=846ae7e3-ae2a-475b-a879-8ec1ad8ca05a
+2026-11-18T14:03:02.594Z INFO  db query orders.by_customer took 74.7ms rows=47
+2026-11-18T14:03:02.911Z INFO  http GET /orders/4140 200 18ms req=de5ac649-bbcf-48d4-ac33-e0ba091ce440
+2026-11-18T14:03:02.926Z INFO  http GET /orders/5019 200 7ms req=18158ead-da6a-44fa-a907-25c2f2debead
+2026-11-18T14:03:03.072Z INFO  db query orders.by_customer took 40.4ms rows=26
+2026-11-18T14:03:03.250Z INFO  http GET /orders/3120 200 11ms req=cdfef175-a7ec-4e8d-a60d-91dcaac12c4b
+2026-11-18T14:03:03.993Z INFO  db query orders.by_customer took 49.1ms rows=25
+2026-11-18T14:03:04.035Z INFO  http GET /orders/6426 200 25ms req=9482017b-bcb6-4f63-a231-836a2ef53598
+2026-11-18T14:03:04.332Z INFO  db query orders.by_customer took 28.7ms rows=39
+2026-11-18T14:03:04.515Z DEBUG cache miss key=cust:449
+2026-11-18T14:03:04.875Z INFO  db query orders.by_customer took 58.3ms rows=31
+2026-11-18T14:03:04.912Z INFO  http GET /orders/2546 200 35ms req=7649b893-9dc2-463b-a39d-ae51ed7dddf1
+2026-11-18T14:03:05.500Z INFO  db query orders.by_customer took 48.4ms rows=39
+2026-11-18T14:03:05.615Z INFO  http GET /orders/7427 200 13ms req=5562e12b-db43-426b-a527-8821529f20be
+2026-11-18T14:03:05.639Z INFO  http GET /orders/8632 200 29ms req=03d133dd-b98d-406d-a7cc-eda6aff86134
+2026-11-18T14:03:06.073Z INFO  http GET /orders/47 200 21ms req=9bb6fccd-1c14-4432-a843-0b3e6fb0b199
+2026-11-18T14:03:06.210Z WARN  payments retry attempt=1 upstream=10.0.3.15:8443
+2026-11-18T14:03:06.210Z WARN  payments retry attempt=2 upstream=10.0.3.2:8443
+2026-11-18T14:03:06.210Z WARN  payments retry attempt=3 upstream=10.0.3.12:8443
+2026-11-18T14:03:06.357Z INFO  http GET /orders/2759 200 32ms req=0d9f5e5c-9ca3-4911-ad14-6952cb527268
+2026-11-18T14:03:06.374Z INFO  db query orders.by_customer took 60.3ms rows=27
+2026-11-18T14:03:06.685Z INFO  db query orders.by_customer took 41.6ms rows=13
+2026-11-18T14:03:06.730Z INFO  http GET /orders/5918 200 18ms req=4d14d34b-17b2-4142-ab1c-211335540ca1
+2026-11-18T14:03:06.768Z INFO  http GET /orders/8855 200 5ms req=95b13ea3-c46d-43d3-a6cb-5f30131c99fc
+2026-11-18T14:03:06.850Z INFO  db query orders.by_customer took 70.4ms rows=22
+2026-11-18T14:03:07.160Z INFO  http GET /orders/9475 200 21ms req=dbc84e78-8039-480f-a975-9a55bef62797
+2026-11-18T14:03:07.642Z INFO  http GET /orders/1043 200 22ms req=e892052a-4bfe-47cc-a826-810f52fb4037
+2026-11-18T14:03:07.881Z INFO  http GET /orders/6842 200 17ms req=6bc644c2-a440-462e-a5f4-938d540baced
+2026-11-18T14:03:08.083Z WARN  payments retry attempt=1 upstream=10.0.3.9:8443
+2026-11-18T14:03:08.083Z WARN  payments retry attempt=2 upstream=10.0.3.32:8443
+2026-11-18T14:03:08.083Z WARN  payments retry attempt=3 upstream=10.0.3.24:8443
+2026-11-18T14:03:08.163Z INFO  db query orders.by_customer took 53.6ms rows=32
+2026-11-18T14:03:08.655Z ERROR payments timeout after 5000ms order=728
+2026-11-18T14:03:08.700Z ERROR payments timeout after 5000ms order=4029
+2026-11-18T14:03:09.143Z INFO  db query orders.by_customer took 22.7ms rows=27
+2026-11-18T14:03:09.904Z INFO  http GET /orders/7614 200 12ms req=f872d2c3-4370-435c-a293-67cf35a1182c
+2026-11-18T14:03:10.143Z WARN  payments retry attempt=1 upstream=10.0.3.38:8443
+2026-11-18T14:03:10.386Z INFO  http GET /orders/2570 200 37ms req=3da62833-d8b3-4cf8-a31f-e5992ab302c9
+2026-11-18T14:03:10.497Z ERROR payments timeout after 5000ms order=9845
+2026-11-18T14:03:10.661Z INFO  http GET /orders/711 200 4ms req=0d453ba7-cf5f-4ec7-a772-c6f9a1bbe6e9
+2026-11-18T14:03:10.668Z INFO  http GET /orders/9155 200 14ms req=3712ac9c-5e8b-4342-aea1-0b5073540ca8
+2026-11-18T14:03:10.722Z DEBUG cache miss key=cust:280
+2026-11-18T14:03:11.129Z INFO  http GET /orders/9384 200 25ms req=76f37b96-ec26-4dea-aa94-05eb7fc3c01d
+2026-11-18T14:03:11.235Z DEBUG cache miss key=cust:475
+2026-11-18T14:03:12.496Z INFO  db query orders.by_customer took 52.3ms rows=8
+2026-11-18T14:03:12.584Z INFO  http GET /orders/6747 200 5ms req=47fb0a11-4dcc-40f4-a79d-0fbe799844ef
+2026-11-18T14:03:12.654Z INFO  db query orders.by_customer took 64.4ms rows=46
+2026-11-18T14:03:13.451Z INFO  http GET /orders/2120 200 37ms req=36936789-9d97-4e6b-ab88-36ae6dcbb79c
+2026-11-18T14:03:13.696Z INFO  http GET /orders/9809 200 34ms req=a4cf150b-08bf-4efd-ad92-18d2da22e6f1
+2026-11-18T14:03:13.737Z ERROR payments timeout after 5000ms order=7634
+2026-11-18T14:03:14.085Z INFO  http GET /orders/4948 200 36ms req=283733e9-b5db-47cd-abc0-41d25fd95942
+2026-11-18T14:03:14.092Z INFO  http GET /orders/3617 200 14ms req=3e4061e5-1acd-4bd9-a639-1f0713bfe8c1
+2026-11-18T14:03:14.452Z INFO  http GET /orders/8614 200 10ms req=5c894b50-1b67-4731-a197-852652abbd4d
+2026-11-18T14:03:14.609Z INFO  db query orders.by_customer took 46.7ms rows=44
+2026-11-18T14:03:14.612Z INFO  http GET /orders/441 200 35ms req=2c78f9c2-d10c-4ead-a7e0-deb56e3baacb
+2026-11-18T14:03:14.876Z INFO  http GET /orders/3351 200 30ms req=737a6bbf-bf8d-4d78-adba-2cd887ab701f
+2026-11-18T14:03:14.972Z INFO  http GET /orders/6639 200 37ms req=c6bf89db-6df9-4a55-a643-a085aa5bef89
+2026-11-18T14:03:15.358Z INFO  http GET /orders/1690 200 13ms req=f384c8ff-ef5d-4413-a371-be337ea23c40
+2026-11-18T14:03:15.584Z INFO  http GET /orders/4120 200 25ms req=a5862dbe-ce96-47e2-a04f-4fa9efa15234
+2026-11-18T14:03:15.671Z ERROR payments timeout after 5000ms order=9893
+2026-11-18T14:03:15.714Z INFO  db query orders.by_customer took 54.0ms rows=48
+2026-11-18T14:03:16.000Z INFO  db query orders.by_customer took 54.3ms rows=15
+2026-11-18T14:03:16.049Z INFO  http GET /orders/4046 200 40ms req=6bf9d31c-999c-4c44-a2a7-54050a3c9aa5
+2026-11-18T14:03:16.630Z INFO  http GET /orders/9605 200 16ms req=e665304d-b6a9-4ca8-aba7-d4a2ed401b9f
+2026-11-18T14:03:16.876Z INFO  db query orders.by_customer took 52.6ms rows=32
+2026-11-18T14:03:17.460Z INFO  http GET /orders/6162 200 13ms req=394ad6af-c0c5-4e0c-adf1-c177df6bc93d
+2026-11-18T14:03:17.465Z INFO  db query orders.by_customer took 68.6ms rows=31
+2026-11-18T14:03:17.541Z INFO  http GET /orders/8638 200 12ms req=469c017d-bb08-4619-a7a8-d78c1e7c2bf8
+2026-11-18T14:03:17.559Z INFO  db query orders.by_customer took 63.6ms rows=8
+2026-11-18T14:03:17.622Z DEBUG cache miss key=cust:482
+2026-11-18T14:03:17.723Z INFO  db query orders.by_customer took 65.5ms rows=29
+2026-11-18T14:03:17.824Z INFO  http GET /orders/3034 200 9ms req=4ae6a4ae-5512-4ae2-ac77-04e4859d4b2d
+2026-11-18T14:03:17.941Z INFO  http GET /orders/5190 200 17ms req=e5f14e87-86ae-4864-a024-9cb9fc4c6071
+2026-11-18T14:03:18.017Z INFO  http GET /orders/2547 200 27ms req=645f1fb7-b7b7-4514-a0c8-7488d3e88194
+2026-11-18T14:03:18.136Z DEBUG cache hit key=cust:173
+2026-11-18T14:03:18.150Z INFO  http GET /orders/8239 200 32ms req=647faf5b-ad21-49bb-ab25-ac3694765878
+2026-11-18T14:03:18.216Z INFO  http GET /orders/6427 200 3ms req=a49e5010-ed05-44d7-af3f-29bea5cd7c00
+2026-11-18T14:03:18.268Z INFO  db query orders.by_customer took 63.6ms rows=4
+2026-11-18T14:03:18.866Z INFO  http GET /orders/8389 200 19ms req=c10ffb50-63ef-40be-a91d-fa048d7050db
+2026-11-18T14:03:19.175Z INFO  http GET /orders/7323 200 7ms req=437c1c4b-9a62-4292-a656-7ff36775d448
+2026-11-18T14:03:19.490Z INFO  http GET /orders/7731 200 15ms req=63217043-0e6c-4005-ab0b-da68309d96ae
+2026-11-18T14:03:19.504Z INFO  http GET /orders/8629 200 7ms req=2db999ca-50d3-40af-aab5-8161d5abaaab
+2026-11-18T14:03:19.717Z INFO  http GET /orders/2869 200 23ms req=41759410-0b8b-4f3f-ad32-d95a253824bb
+2026-11-18T14:03:19.754Z INFO  db query orders.by_customer took 43.4ms rows=29
+2026-11-18T14:03:19.774Z INFO  http GET /orders/9410 200 21ms req=e5887ec5-2bb9-4451-aeec-f97084dca373
+2026-11-18T14:03:20.199Z INFO  http GET /orders/6538 200 33ms req=b5261a5c-4da6-4334-a90a-1c8484cd5c31
+2026-11-18T14:03:20.521Z INFO  http GET /orders/174 200 18ms req=f65fb930-1ac9-45f1-a133-409377352800
+2026-11-18T14:03:20.720Z INFO  http GET /orders/4600 200 12ms req=0c9ead79-6504-4189-a3b4-4cc10d850907
+2026-11-18T14:03:20.787Z INFO  http GET /orders/7119 200 22ms req=be7f2775-9b2a-427f-a7a3-696f0e48cf59
+2026-11-18T14:03:20.955Z INFO  http GET /orders/5234 200 28ms req=b8a28f9a-70f4-4517-a6cc-0687a120f727
+2026-11-18T14:03:21.150Z INFO  http GET /orders/3433 200 29ms req=95b40323-b406-44f3-ac17-c3e487d9c6df
+2026-11-18T14:03:21.210Z INFO  http GET /orders/9334 200 7ms req=c09f6134-14c2-4ecb-a2bf-03c2e76c8c4a
+2026-11-18T14:03:21.262Z INFO  db query orders.by_customer took 38.6ms rows=8
+2026-11-18T14:03:21.490Z INFO  db query orders.by_customer took 45.2ms rows=29
+2026-11-18T14:03:21.531Z INFO  http GET /orders/6545 200 25ms req=0db636f7-f6a3-4ee0-a29d-b2393247ca90
+2026-11-18T14:03:21.693Z INFO  http GET /orders/4407 200 28ms req=e05dbb29-e14f-4d2a-ada1-38a86a56ecb2
+2026-11-18T14:03:21.726Z INFO  http GET /orders/8514 200 18ms req=11e4c467-1916-458c-a2b2-af4f32e8f408
+2026-11-18T14:03:21.845Z INFO  http GET /orders/6419 200 14ms req=08beaa12-0a38-4bfe-ab98-5f483143c572
+2026-11-18T14:03:21.879Z INFO  db query orders.by_customer took 52.2ms rows=21
+2026-11-18T14:03:21.893Z ERROR payments timeout after 5000ms order=4696
+2026-11-18T14:03:22.066Z INFO  db query orders.by_customer took 85.8ms rows=44
+2026-11-18T14:03:22.224Z INFO  db query orders.by_customer took 26.2ms rows=27
+2026-11-18T14:03:22.287Z INFO  db query orders.by_customer took 55.6ms rows=49
+2026-11-18T14:03:22.779Z INFO  db query orders.by_customer took 35.2ms rows=13
+2026-11-18T14:03:22.831Z INFO  http GET /orders/6944 200 24ms req=1c7986ac-074d-4b1b-ac31-a0074ca1a5e7
+2026-11-18T14:03:23.276Z INFO  db query orders.by_customer took 37.9ms rows=37
+2026-11-18T14:03:23.335Z INFO  db query orders.by_customer took 43.7ms rows=16
+2026-11-18T14:03:23.888Z INFO  http GET /orders/2745 200 29ms req=2942c6e3-2d73-486b-abfd-2a9c9819345a
+2026-11-18T14:03:23.935Z INFO  db query orders.by_customer took 42.8ms rows=4
+2026-11-18T14:03:24.186Z INFO  http GET /orders/923 200 10ms req=134a4d18-b0e6-43d4-a1d8-4e0fa600a126
+2026-11-18T14:03:24.417Z INFO  db query orders.by_customer took 38.8ms rows=14
+2026-11-18T14:03:24.650Z INFO  http GET /orders/8405 200 11ms req=4053f2c0-860e-4c3b-a6af-75e4ce8ad8a2
+2026-11-18T14:03:25.229Z INFO  http GET /orders/563 200 25ms req=21772f53-a25f-4884-a276-0268958834e7
+2026-11-18T14:03:25.746Z INFO  db query orders.by_customer took 20.7ms rows=45
+2026-11-18T14:03:25.806Z INFO  http GET /orders/766 200 35ms req=acddb246-2c22-4dfa-acd8-7e3d90d19130
+2026-11-18T14:03:25.908Z INFO  http GET /orders/4690 200 34ms req=3f2b7482-6783-4750-ab7d-dabb43d62a11
+2026-11-18T14:03:25.920Z INFO  http GET /orders/5566 200 20ms req=a14b627d-4fe1-4cf7-adb8-9a0ffcf82399
+2026-11-18T14:03:26.417Z INFO  db query orders.by_customer took 46.4ms rows=29
+2026-11-18T14:03:26.544Z INFO  db query orders.by_customer took 87.1ms rows=47
+2026-11-18T14:03:26.564Z INFO  db query orders.by_customer took 47.8ms rows=11
+2026-11-18T14:03:26.655Z INFO  http GET /orders/7800 200 19ms req=3200393d-c4be-49d2-a16f-4dcdd9c409b7
+2026-11-18T14:03:27.096Z INFO  db query orders.by_customer took 59.4ms rows=44
+2026-11-18T14:03:27.196Z INFO  http GET /orders/6966 200 4ms req=3d455c00-a112-4436-a54c-629a0920370d
+2026-11-18T14:03:27.225Z INFO  http GET /orders/6831 200 39ms req=2c547a22-ef91-4a98-a3f8-679d04c881de
+2026-11-18T14:03:27.888Z ERROR payments timeout after 5000ms order=4536
+2026-11-18T14:03:29.360Z INFO  db query orders.by_customer took 48.3ms rows=4
+2026-11-18T14:03:29.511Z ERROR payments timeout after 5000ms order=5885
+2026-11-18T14:03:29.725Z INFO  http GET /orders/4391 200 29ms req=4de0e5b8-5fce-4b37-a327-f9e7a9525637
+2026-11-18T14:03:29.748Z INFO  http GET /orders/792 200 22ms req=30cbc210-bca5-472e-aba4-d0dc93d0e282
+2026-11-18T14:03:29.782Z INFO  http GET /orders/9247 200 12ms req=63a8b358-122c-44b2-a8dc-20d194edf6d7
+2026-11-18T14:03:29.782Z ERROR inventory reservation failed sku=SKU-936 reason=stale_version
+2026-11-18T14:03:29.856Z INFO  http GET /orders/8285 200 25ms req=3f17fbbc-6084-4b60-a91f-9d755e58bd12
+2026-11-18T14:03:30.115Z INFO  http GET /orders/6961 200 26ms req=01563521-263f-479e-a7f8-d145c26cbc71
+2026-11-18T14:03:30.256Z INFO  http GET /orders/6958 200 26ms req=6261cfc5-6ccb-4101-a7fc-83732eb21bf8
+2026-11-18T14:03:30.318Z INFO  db query orders.by_customer took 55.9ms rows=14
+2026-11-18T14:03:30.392Z INFO  db query orders.by_customer took 38.0ms rows=2
+2026-11-18T14:03:30.489Z DEBUG cache miss key=cust:493
+2026-11-18T14:03:30.545Z INFO  db query orders.by_customer took 60.7ms rows=6
+2026-11-18T14:03:30.618Z INFO  http GET /orders/467 200 29ms req=4e201499-c8e2-41a7-ab81-48bde5960dd6
+2026-11-18T14:03:30.995Z INFO  http GET /orders/1428 200 39ms req=d65da3aa-5700-4772-a73a-8f3773a1bd1e
+2026-11-18T14:03:31.527Z INFO  http GET /orders/3374 200 16ms req=a96739fa-ea21-4658-a199-5d5e1ab6fe8c
+2026-11-18T14:03:31.959Z DEBUG cache miss key=cust:108
+2026-11-18T14:03:32.335Z INFO  http GET /orders/8569 200 29ms req=f676c541-9f98-4c46-a8c5-cfa924143491
+2026-11-18T14:03:32.432Z INFO  http GET /orders/5387 200 11ms req=9400ab6e-8e33-45b4-a27b-758e8618dbeb
+2026-11-18T14:03:33.023Z DEBUG cache hit key=cust:257
+2026-11-18T14:03:33.178Z INFO  db query orders.by_customer took 54.6ms rows=16
+2026-11-18T14:03:33.345Z INFO  http GET /orders/6284 200 23ms req=0523d0b9-f0c7-4f97-ac87-50e1264bff9d
+2026-11-18T14:03:33.855Z INFO  http GET /orders/4928 200 33ms req=238f8c3c-6db2-4e8a-a3bd-488bdedc49dd
+2026-11-18T14:03:33.985Z WARN  payments retry attempt=1 upstream=10.0.3.15:8443
+2026-11-18T14:03:33.985Z WARN  payments retry attempt=2 upstream=10.0.3.40:8443
+2026-11-18T14:03:33.985Z WARN  payments retry attempt=3 upstream=10.0.3.25:8443
+2026-11-18T14:03:34.238Z INFO  http GET /orders/3526 200 10ms req=2b89cb61-f320-42ca-aa81-cf2290fcb0c0
+2026-11-18T14:03:34.355Z WARN  payments retry attempt=1 upstream=10.0.3.7:8443
+2026-11-18T14:03:34.355Z WARN  payments retry attempt=2 upstream=10.0.3.23:8443
+2026-11-18T14:03:34.355Z WARN  payments retry attempt=3 upstream=10.0.3.10:8443
+2026-11-18T14:03:34.425Z INFO  db query orders.by_customer took 35.9ms rows=31
+2026-11-18T14:03:34.456Z INFO  http GET /orders/9848 200 19ms req=abcec502-6976-447a-a18c-0fccd6926ed2
+2026-11-18T14:03:34.512Z INFO  http GET /orders/6045 200 13ms req=b9abae9c-61fa-42b7-afa4-c04a911628f5
+2026-11-18T14:03:35.051Z INFO  db query orders.by_customer took 62.2ms rows=0
+2026-11-18T14:03:35.084Z INFO  http GET /orders/7614 200 9ms req=e0223910-337a-421a-a8f3-0cc781a36762
+2026-11-18T14:03:35.088Z DEBUG cache hit key=cust:499
+2026-11-18T14:03:35.635Z WARN  payments retry attempt=1 upstream=10.0.3.25:8443
+2026-11-18T14:03:35.635Z WARN  payments retry attempt=2 upstream=10.0.3.30:8443
+2026-11-18T14:03:35.635Z WARN  payments retry attempt=3 upstream=10.0.3.9:8443
+2026-11-18T14:03:36.524Z INFO  http GET /orders/9024 200 14ms req=04650931-9618-4cfb-a064-af23ca24eb30
+2026-11-18T14:03:36.948Z WARN  payments retry attempt=1 upstream=10.0.3.25:8443
+2026-11-18T14:03:36.948Z WARN  payments retry attempt=2 upstream=10.0.3.5:8443
+2026-11-18T14:03:36.948Z WARN  payments retry attempt=3 upstream=10.0.3.21:8443
+2026-11-18T14:03:36.977Z INFO  worker heartbeat pid=8680 mem=200MB
+2026-11-18T14:03:37.156Z INFO  db query orders.by_customer took 52.2ms rows=44
+2026-11-18T14:03:37.266Z INFO  http GET /orders/3140 200 9ms req=5694a9d2-9b76-4d82-aa9f-6a9d76912b22
+2026-11-18T14:03:37.737Z INFO  http GET /orders/7338 200 30ms req=7754db68-0b85-4c3a-ada3-e4f2b11553f5
+2026-11-18T14:03:37.771Z INFO  http GET /orders/4884 200 38ms req=ff4249b3-2c0d-4976-acf6-829a0a21c8ed
+2026-11-18T14:03:37.845Z INFO  db query orders.by_customer took 45.6ms rows=36
+2026-11-18T14:03:37.965Z INFO  worker heartbeat pid=6500 mem=236MB
+2026-11-18T14:03:38.008Z INFO  http GET /orders/8795 200 36ms req=dfdbeed6-9917-414e-aef2-7a14711c5555
+2026-11-18T14:03:38.069Z INFO  http GET /orders/2718 200 15ms req=aa71ac95-e976-4b13-aea7-5ae025721f3c
+2026-11-18T14:03:38.290Z INFO  http GET /orders/474 200 23ms req=34d84096-8a67-4081-a915-6a25a2cc6362
+2026-11-18T14:03:38.718Z DEBUG cache miss key=cust:318
+2026-11-18T14:03:38.875Z DEBUG cache miss key=cust:177
+2026-11-18T14:03:39.335Z INFO  http GET /orders/9381 200 19ms req=a735ce55-7048-4e6d-aa2d-7d2cc56b2434
+2026-11-18T14:03:39.362Z INFO  http GET /orders/2244 200 19ms req=57262614-1040-474e-a910-e069aed269cd
+2026-11-18T14:03:39.625Z INFO  http GET /orders/8664 200 11ms req=051b04d6-2597-42e2-a2ff-61eb9e6f8a6e
+2026-11-18T14:03:39.752Z INFO  db query orders.by_customer took 61.7ms rows=22
+2026-11-18T14:03:39.874Z INFO  http GET /orders/4218 200 33ms req=237db892-9d12-4c01-a2a6-35bb37868671
+2026-11-18T14:03:39.938Z DEBUG cache miss key=cust:296
+2026-11-18T14:03:40.048Z INFO  http GET /orders/5954 200 34ms req=35b97531-8a46-457c-a7ef-2304fda06f06
+2026-11-18T14:03:40.055Z INFO  http GET /orders/1121 200 15ms req=fc2d654d-99c9-4c98-a3b7-fd163b7ffc80
+2026-11-18T14:03:40.088Z INFO  http GET /orders/2753 200 17ms req=e37b7849-9155-4016-a521-815121dba06c
+2026-11-18T14:03:40.523Z INFO  db query orders.by_customer took 30.2ms rows=33
+2026-11-18T14:03:40.762Z INFO  db query orders.by_customer took 42.0ms rows=48
+2026-11-18T14:03:40.795Z INFO  http GET /orders/2721 200 33ms req=a9528f3f-2cee-462e-a624-27ce80cbd3e7
+2026-11-18T14:03:40.861Z DEBUG cache hit key=cust:204
+2026-11-18T14:03:41.312Z INFO  db query orders.by_customer took 57.1ms rows=17
+2026-11-18T14:03:41.323Z INFO  db query orders.by_customer took 69.0ms rows=0
+2026-11-18T14:03:41.401Z INFO  db query orders.by_customer took 66.6ms rows=32
+2026-11-18T14:03:41.740Z INFO  http GET /orders/8907 200 30ms req=46b559c8-5f5f-463b-a9ed-043dfd7e5f89
+2026-11-18T14:03:41.828Z WARN  payments retry attempt=1 upstream=10.0.3.2:8443
+2026-11-18T14:03:42.664Z INFO  http GET /orders/7326 200 18ms req=628f4a40-605c-493e-a0ba-a286289c5cd8
+2026-11-18T14:03:42.746Z INFO  http GET /orders/7039 200 14ms req=2f8554b8-2af8-472e-aef6-71f9a55a44fc
+2026-11-18T14:03:42.890Z INFO  http GET /orders/6405 200 36ms req=13327e31-0c79-4a95-aded-e544277addea
+2026-11-18T14:03:42.916Z INFO  http GET /orders/716 200 5ms req=6fb59771-ea6d-4c85-aa98-c8dfd28077be
+2026-11-18T14:03:43.270Z INFO  http GET /orders/675 200 31ms req=40476550-60a9-47f0-a4b2-532f162714da
+2026-11-18T14:03:43.821Z DEBUG cache miss key=cust:359
+2026-11-18T14:03:43.847Z INFO  http GET /orders/1268 200 19ms req=7855105e-9ce7-4e36-a668-ca6753afcb2a
+2026-11-18T14:03:44.182Z INFO  db query orders.by_customer took 89.0ms rows=9
+2026-11-18T14:03:44.332Z INFO  http GET /orders/7413 200 18ms req=0ca3ed85-a3a6-4dfe-a0bf-dbfea719aa6a
+2026-11-18T14:03:44.470Z INFO  http GET /orders/7856 200 39ms req=a5e9b8e5-2531-45dd-a0e9-8ca9863a9717
+2026-11-18T14:03:44.599Z WARN  payments retry attempt=1 upstream=10.0.3.39:8443
+2026-11-18T14:03:44.599Z WARN  payments retry attempt=2 upstream=10.0.3.35:8443
+2026-11-18T14:03:44.599Z WARN  payments retry attempt=3 upstream=10.0.3.36:8443
+2026-11-18T14:03:44.727Z INFO  db query orders.by_customer took 56.9ms rows=17
+2026-11-18T14:03:44.979Z WARN  payments retry attempt=1 upstream=10.0.3.31:8443
+2026-11-18T14:03:44.979Z WARN  payments retry attempt=2 upstream=10.0.3.5:8443
+2026-11-18T14:03:44.979Z WARN  payments retry attempt=3 upstream=10.0.3.11:8443
+2026-11-18T14:03:45.266Z INFO  http GET /orders/795 200 14ms req=f879b070-27d2-4ec7-a23e-f0d97412d738
+2026-11-18T14:03:45.298Z INFO  db query orders.by_customer took 40.1ms rows=11
+2026-11-18T14:03:45.973Z INFO  http GET /orders/4433 200 33ms req=081d00c1-6e63-4034-a1f7-146a2e0541ae
+2026-11-18T14:03:46.175Z INFO  http GET /orders/9040 200 29ms req=19f61203-e6fa-4822-aca8-8fddaef35028
+2026-11-18T14:03:46.339Z DEBUG cache hit key=cust:414
+2026-11-18T14:03:46.387Z INFO  db query orders.by_customer took 75.4ms rows=50
+2026-11-18T14:03:47.222Z INFO  db query orders.by_customer took 72.5ms rows=28
+2026-11-18T14:03:47.519Z INFO  db query orders.by_customer took 63.8ms rows=44
+2026-11-18T14:03:47.564Z INFO  http GET /orders/7624 200 16ms req=939acf99-25c6-4468-ad0c-f11c2cc0fb6d
+2026-11-18T14:03:47.829Z INFO  worker heartbeat pid=3539 mem=200MB
+2026-11-18T14:03:48.095Z INFO  http GET /orders/9359 200 10ms req=87d7d6f0-994b-4619-ac16-fbc268a812c7
+2026-11-18T14:03:48.117Z WARN  payments retry attempt=1 upstream=10.0.3.25:8443
+2026-11-18T14:03:48.117Z WARN  payments retry attempt=2 upstream=10.0.3.28:8443
+2026-11-18T14:03:48.117Z WARN  payments retry attempt=3 upstream=10.0.3.28:8443
+2026-11-18T14:03:48.497Z INFO  db query orders.by_customer took 35.6ms rows=24
+2026-11-18T14:03:48.515Z INFO  http GET /orders/7885 200 30ms req=94bce426-e50d-4a24-a1b3-726b59933bb6
+2026-11-18T14:03:48.669Z INFO  http GET /orders/514 200 13ms req=307eac3d-ca4c-4d2c-afe7-98ba5fe23665
+2026-11-18T14:03:48.855Z INFO  http GET /orders/6904 200 14ms req=13bd5498-a25b-49f4-ab35-358aea54d043
+2026-11-18T14:03:49.085Z INFO  http GET /orders/9913 200 23ms req=b9cde955-3e4b-4d7e-a082-4b4fc66b6f25
+2026-11-18T14:03:49.110Z INFO  http GET /orders/5195 200 33ms req=49cb5a24-ce5c-443f-af43-c619a2c2e3ff
+2026-11-18T14:03:49.368Z INFO  worker heartbeat pid=5389 mem=237MB
+2026-11-18T14:03:49.519Z INFO  http GET /orders/603 200 37ms req=437f6fdd-edc4-4559-a196-5b441aae6293
+2026-11-18T14:03:49.623Z INFO  http GET /orders/7465 200 30ms req=f4f7a1e5-1d60-4308-a635-fbfa3c525325
+2026-11-18T14:03:50.489Z INFO  http GET /orders/8690 200 28ms req=ca609736-96e7-4e1e-a4bf-4abe7b3037c5
+2026-11-18T14:03:50.848Z INFO  db query orders.by_customer took 52.9ms rows=27
+2026-11-18T14:03:51.057Z INFO  http GET /orders/3814 200 3ms req=85344d72-d019-4177-ad20-0cb27543aa87
+2026-11-18T14:03:52.050Z INFO  http GET /orders/5367 200 7ms req=2a5d06a1-7df4-4f7f-a484-91d533e92bcd
+2026-11-18T14:03:52.215Z INFO  http GET /orders/2498 200 7ms req=71ee0f82-7bee-40c6-a5d5-7cf577135b4f
+2026-11-18T14:03:52.814Z INFO  db query orders.by_customer took 33.6ms rows=7
+2026-11-18T14:03:52.936Z INFO  http GET /orders/2656 200 31ms req=e3ebfaf3-bcf6-4155-a794-2353c9d81fd7
+2026-11-18T14:03:53.050Z INFO  http GET /orders/4654 200 27ms req=cd2eee76-712b-4374-a656-4a230c1125f1
+2026-11-18T14:03:53.136Z INFO  http GET /orders/610 200 3ms req=4c70cbe5-b35e-4c23-a5b6-b16cf24b4589
+2026-11-18T14:03:53.340Z INFO  http GET /orders/8608 200 38ms req=1c97b317-5fe4-4633-a588-e2a4c4916940
+2026-11-18T14:03:53.664Z INFO  db query orders.by_customer took 69.2ms rows=16
+2026-11-18T14:03:53.815Z INFO  db query orders.by_customer took 57.1ms rows=43
+2026-11-18T14:03:53.897Z INFO  http GET /orders/6247 200 22ms req=09d9788d-86f8-4c6a-aaef-414f3c51ff94
+2026-11-18T14:03:53.922Z ERROR payments timeout after 5000ms order=8493
+2026-11-18T14:03:54.069Z INFO  http GET /orders/6830 200 33ms req=042aca60-c1ac-46cf-a8f2-55c8082c2f01
+2026-11-18T14:03:54.134Z INFO  db query orders.by_customer took 44.5ms rows=34
+2026-11-18T14:03:54.414Z INFO  http GET /orders/9121 200 24ms req=5994c990-1bba-4db5-afcf-11a554882a15
+2026-11-18T14:03:54.657Z INFO  http GET /orders/8963 200 32ms req=23f53623-7769-460c-a4f9-02d2d95cf39e
+2026-11-18T14:03:54.903Z INFO  http GET /orders/9151 200 38ms req=ab8fb6e7-e74f-4bdf-a718-d66af48aec62
+2026-11-18T14:03:55.012Z INFO  http GET /orders/3353 200 6ms req=21645b1f-53b2-47c8-ad4d-00ba69ac90dc
+2026-11-18T14:03:55.349Z INFO  http GET /orders/3449 200 17ms req=61d74853-4ab0-4bc6-a86d-6770bce979ec
+2026-11-18T14:03:55.574Z DEBUG cache miss key=cust:445
+2026-11-18T14:03:55.915Z INFO  http GET /orders/3991 200 38ms req=97cfdf37-1185-426b-a0de-06c9f5a6e0c0
+2026-11-18T14:03:56.101Z INFO  db query orders.by_customer took 50.3ms rows=50
+2026-11-18T14:03:56.191Z INFO  db query orders.by_customer took 88.7ms rows=48
+2026-11-18T14:03:56.498Z INFO  worker heartbeat pid=2823 mem=224MB
+2026-11-18T14:03:56.500Z INFO  http GET /orders/7863 200 7ms req=6106db42-fb12-4116-ab02-e4226f70982a
+2026-11-18T14:03:57.080Z WARN  payments retry attempt=1 upstream=10.0.3.16:8443
+2026-11-18T14:03:57.283Z DEBUG cache miss key=cust:414
+2026-11-18T14:03:57.716Z INFO  db query orders.by_customer took 40.0ms rows=4
+2026-11-18T14:03:58.184Z INFO  http GET /orders/6400 200 32ms req=bf984676-431a-43b0-a35c-5d8394bccabd
+2026-11-18T14:03:58.723Z INFO  worker heartbeat pid=1327 mem=251MB
+2026-11-18T14:03:59.001Z WARN  payments retry attempt=1 upstream=10.0.3.31:8443
+2026-11-18T14:03:59.424Z INFO  http GET /orders/8511 200 13ms req=0b72e94f-9590-450b-a74b-33163b0ce130
+2026-11-18T14:03:59.523Z INFO  http GET /orders/1523 200 21ms req=79566a15-7844-4425-a1af-e444760a3f22
+2026-11-18T14:03:59.886Z INFO  db query orders.by_customer took 72.1ms rows=17
+2026-11-18T14:04:00.026Z INFO  http GET /orders/1219 200 9ms req=f2f1ca49-0246-400d-aa45-51b07a1c9649
+2026-11-18T14:04:00.055Z INFO  http GET /orders/139 200 32ms req=69878d4f-e832-4f1a-ad0b-4ecef8f999ab
+2026-11-18T14:04:00.064Z WARN  payments retry attempt=1 upstream=10.0.3.8:8443
+2026-11-18T14:04:00.336Z INFO  worker heartbeat pid=4700 mem=239MB
+2026-11-18T14:04:00.593Z DEBUG cache miss key=cust:381
+2026-11-18T14:04:00.878Z INFO  db query orders.by_customer took 73.4ms rows=37
+2026-11-18T14:04:01.173Z DEBUG cache hit key=cust:108
+2026-11-18T14:04:01.408Z INFO  db query orders.by_customer took 39.7ms rows=11
+2026-11-18T14:04:01.422Z INFO  db query orders.by_customer took 39.0ms rows=38
+2026-11-18T14:04:01.551Z INFO  http GET /orders/1709 200 31ms req=f7766128-67bb-413f-a6f9-706b5f48283d
+2026-11-18T14:04:01.554Z INFO  http GET /orders/7414 200 30ms req=b63c869d-ee51-48b1-aa81-09656eeee2cc
+2026-11-18T14:04:01.658Z INFO  http GET /orders/2763 200 39ms req=972b7d1f-9ff2-471f-a7fd-eb0d4352bd1d
+2026-11-18T14:04:01.878Z INFO  http GET /orders/5582 200 22ms req=209053ed-ebdd-4521-aefc-14abad1ccaca
+2026-11-18T14:04:02.148Z INFO  http GET /orders/6920 200 29ms req=e1e39c92-5ee5-4710-aba5-f535ad4e465f
+2026-11-18T14:04:02.397Z WARN  payments retry attempt=1 upstream=10.0.3.35:8443
+2026-11-18T14:04:02.434Z INFO  http GET /orders/3698 200 22ms req=9f052207-e4d0-4aac-ab8a-74a1e40b4c83
+2026-11-18T14:04:02.702Z INFO  http GET /orders/3677 200 32ms req=dba18cbc-4d22-42a8-ad6b-2ff4d1936f32
+2026-11-18T14:04:03.296Z INFO  http GET /orders/3933 200 23ms req=7a3f0e7b-e9c1-45ec-aa98-0294d76dcc3b
+2026-11-18T14:04:03.657Z INFO  db query orders.by_customer took 50.2ms rows=16
+2026-11-18T14:04:03.726Z INFO  http GET /orders/5427 200 37ms req=4102d181-8426-4bb4-aa52-65de5cfeca5d
+2026-11-18T14:04:04.145Z INFO  http GET /orders/5903 200 8ms req=6a43795f-32db-446f-a970-70e866798c06
+2026-11-18T14:04:04.145Z ERROR inventory reservation failed sku=SKU-133 reason=stale_version
+2026-11-18T14:04:04.196Z INFO  db query orders.by_customer took 48.6ms rows=15
+2026-11-18T14:04:04.201Z INFO  http GET /orders/6606 200 36ms req=c139e815-2ceb-4a55-ada7-772b2c0da933
+2026-11-18T14:04:04.212Z INFO  http GET /orders/6389 200 7ms req=36642238-51ff-421e-ae77-b49f9546d545
+2026-11-18T14:04:04.561Z INFO  db query orders.by_customer took 51.2ms rows=45
+2026-11-18T14:04:04.572Z INFO  http GET /orders/8120 200 12ms req=2e5171e2-cb49-45a3-a435-d0f48ce5d24e
+2026-11-18T14:04:05.342Z INFO  http GET /orders/5306 200 11ms req=3c1d5179-371d-4bc9-a5a6-998f3ace90df
+2026-11-18T14:04:05.526Z INFO  http GET /orders/5262 200 5ms req=249b680c-703d-4595-ac4d-ea774546c7a0
+2026-11-18T14:04:05.802Z INFO  http GET /orders/780 200 36ms req=e1bfad5f-a39c-4cbc-af4c-4cf25c6f3d28
+2026-11-18T14:04:06.079Z INFO  http GET /orders/9177 200 4ms req=a57f88a3-eec2-443b-a354-1a99e751efdf
+2026-11-18T14:04:06.135Z INFO  http GET /orders/4077 200 17ms req=d05b532c-59ae-467e-a1fd-3ca53665851a
+2026-11-18T14:04:06.623Z INFO  http GET /orders/4785 200 5ms req=e8b941ac-00c8-458e-a076-0a715fddb2d1
+2026-11-18T14:04:06.695Z INFO  db query orders.by_customer took 63.6ms rows=28
+2026-11-18T14:04:06.796Z INFO  http GET /orders/3542 200 31ms req=1588af00-c2c1-4f29-a1b9-c51e993baf9f
+2026-11-18T14:04:07.244Z INFO  http GET /orders/933 200 26ms req=6b8cf5c1-6eaf-4a8d-a307-0f68af38b398
+2026-11-18T14:04:07.344Z DEBUG cache miss key=cust:28
+2026-11-18T14:04:07.484Z WARN  payments retry attempt=1 upstream=10.0.3.19:8443
+2026-11-18T14:04:07.495Z INFO  db query orders.by_customer took 42.9ms rows=20
+2026-11-18T14:04:07.840Z INFO  worker heartbeat pid=1056 mem=250MB
+2026-11-18T14:04:08.610Z INFO  http GET /orders/1836 200 20ms req=b109c4c4-5e33-48ed-a5a0-c258ae56d6b6
+2026-11-18T14:04:08.982Z INFO  db query orders.by_customer took 79.3ms rows=21
+2026-11-18T14:04:09.125Z DEBUG cache miss key=cust:318
+2026-11-18T14:04:09.420Z INFO  http GET /orders/9337 200 14ms req=2dd6d44c-7a31-43de-ae8a-00282b99a357
+2026-11-18T14:04:09.608Z INFO  http GET /orders/5859 200 36ms req=5b430d22-cb0b-4a7e-a89b-99a310174ba0
+2026-11-18T14:04:09.648Z INFO  http GET /orders/5362 200 35ms req=06f47785-8416-4de0-a285-615e6d36e014
+2026-11-18T14:04:09.769Z INFO  db query orders.by_customer took 41.1ms rows=37
+2026-11-18T14:04:10.283Z INFO  worker heartbeat pid=1274 mem=238MB
+2026-11-18T14:04:10.820Z DEBUG cache miss key=cust:146
+2026-11-18T14:04:10.939Z INFO  db query orders.by_customer took 39.8ms rows=48
+2026-11-18T14:04:11.181Z INFO  http GET /orders/5785 200 20ms req=7bed809e-4643-4870-a48b-deada4f740ca
+2026-11-18T14:04:11.631Z INFO  http GET /orders/3933 200 31ms req=28646e79-6658-4683-a685-7c2079a4947a
+2026-11-18T14:04:11.698Z INFO  db query orders.by_customer took 46.8ms rows=17
+2026-11-18T14:04:11.974Z INFO  db query orders.by_customer took 60.1ms rows=3
+2026-11-18T14:04:13.411Z DEBUG cache miss key=cust:404
+2026-11-18T14:04:13.596Z INFO  http GET /orders/4821 200 23ms req=627d2e34-aa7c-4bef-a11a-3170bac205c2
+2026-11-18T14:04:13.613Z INFO  http GET /orders/4361 200 38ms req=dd7c27a0-f0f7-4b7b-a43e-f889ce112a1d
+2026-11-18T14:04:13.846Z INFO  db query orders.by_customer took 74.9ms rows=1
+2026-11-18T14:04:13.919Z INFO  db query orders.by_customer took 45.9ms rows=11
+2026-11-18T14:04:13.942Z WARN  payments retry attempt=1 upstream=10.0.3.39:8443
+2026-11-18T14:04:13.942Z WARN  payments retry attempt=2 upstream=10.0.3.34:8443
+2026-11-18T14:04:13.942Z WARN  payments retry attempt=3 upstream=10.0.3.12:8443
+2026-11-18T14:04:14.585Z INFO  http GET /orders/672 200 5ms req=3b875b41-8f7a-4800-a757-be8414a7e247
+2026-11-18T14:04:14.959Z INFO  http GET /orders/3249 200 8ms req=5e14ea23-1dc9-44bb-a222-5f5554bed609
+2026-11-18T14:04:15.239Z INFO  http GET /orders/7454 200 13ms req=5d975a60-2b24-4d29-ae1b-f4e9a6a5b1c8
+2026-11-18T14:04:15.401Z INFO  http GET /orders/5728 200 5ms req=a28d26d0-1c19-411d-a788-861b1affcf86
+2026-11-18T14:04:15.514Z INFO  db query orders.by_customer took 40.2ms rows=22
+2026-11-18T14:04:16.233Z ERROR payments timeout after 5000ms order=9492
+2026-11-18T14:04:16.275Z INFO  http GET /orders/5753 200 8ms req=1275221d-1556-45e3-a918-ce24a42aaa3c
+2026-11-18T14:04:16.675Z INFO  http GET /orders/3640 200 28ms req=a00f7bae-bf98-46b4-aefc-62330f935794
+2026-11-18T14:04:17.003Z INFO  http GET /orders/9347 200 20ms req=047a96b5-daa7-464d-a7e0-4ca06fbbd218
+2026-11-18T14:04:17.026Z INFO  worker heartbeat pid=8808 mem=242MB
+2026-11-18T14:04:17.065Z DEBUG cache miss key=cust:171
+2026-11-18T14:04:17.154Z INFO  db query orders.by_customer took 82.3ms rows=4
+2026-11-18T14:04:17.351Z INFO  db query orders.by_customer took 54.0ms rows=7
+2026-11-18T14:04:17.439Z INFO  http GET /orders/1521 200 15ms req=250b27e5-e2dc-40d7-a269-f1afa60be400
+2026-11-18T14:04:17.517Z INFO  http GET /orders/7890 200 3ms req=21963e35-d085-4793-ad31-6c9d2d7fe52c
+2026-11-18T14:04:17.607Z INFO  http GET /orders/5905 200 35ms req=aa4d6e64-cdac-4cf0-a2dd-d51e5dfada87
+2026-11-18T14:04:17.802Z INFO  db query orders.by_customer took 37.8ms rows=13
+2026-11-18T14:04:18.478Z INFO  db query orders.by_customer took 34.5ms rows=35
+2026-11-18T14:04:19.140Z INFO  http GET /orders/1586 200 26ms req=757f05b4-2c77-4d37-ae02-925b7f270f93
+2026-11-18T14:04:19.233Z INFO  http GET /orders/8707 200 15ms req=1753cb2d-0103-436b-a519-9d1e18a33e36
+2026-11-18T14:04:19.305Z ERROR payments timeout after 5000ms order=6236
+2026-11-18T14:04:19.611Z DEBUG cache hit key=cust:273
+2026-11-18T14:04:19.746Z INFO  http GET /orders/2143 200 16ms req=94308cfd-f7bb-4b00-ad9e-b51ff677e839
+2026-11-18T14:04:19.799Z INFO  http GET /orders/1012 200 19ms req=c0456ae6-28d8-458a-af44-4c3422157210
+2026-11-18T14:04:19.976Z INFO  http GET /orders/3551 200 9ms req=300e736c-8af0-4fab-af0e-55953c105ae8
+2026-11-18T14:04:20.883Z INFO  worker heartbeat pid=3189 mem=205MB
+2026-11-18T14:04:20.937Z INFO  http GET /orders/9511 200 5ms req=c2303129-b16b-4e7b-a512-e4aec30eb78c
+2026-11-18T14:04:20.942Z INFO  http GET /orders/7463 200 14ms req=fcd0a2ff-72a0-4c52-a4e3-8ef1eb840bf8
+2026-11-18T14:04:22.293Z INFO  db query orders.by_customer took 50.9ms rows=41
+2026-11-18T14:04:22.662Z WARN  payments retry attempt=1 upstream=10.0.3.22:8443
+2026-11-18T14:04:22.679Z DEBUG cache hit key=cust:320
+2026-11-18T14:04:22.718Z INFO  worker heartbeat pid=6534 mem=242MB
+2026-11-18T14:04:23.138Z INFO  db query orders.by_customer took 48.1ms rows=8
+2026-11-18T14:04:23.215Z INFO  http GET /orders/8765 200 20ms req=fe75e0f2-e2eb-4fc0-a8a5-b885a61d6f42
+2026-11-18T14:04:23.480Z DEBUG cache hit key=cust:13
+2026-11-18T14:04:24.074Z INFO  http GET /orders/2382 200 14ms req=fcccf60c-a52f-4051-a938-02128a9ea7ee
+2026-11-18T14:04:24.088Z ERROR payments timeout after 5000ms order=358
+2026-11-18T14:04:24.162Z INFO  http GET /orders/8087 200 27ms req=9250df06-bdcf-490e-aec9-ad3b31024fda
+2026-11-18T14:04:24.339Z INFO  http GET /orders/2755 200 28ms req=44cd3105-b832-48d3-a30b-6978b94d1f12
+2026-11-18T14:04:24.622Z INFO  http GET /orders/232 200 14ms req=51389e85-8af7-4ed9-a5f0-fe86ce4d80fe
+2026-11-18T14:04:25.062Z INFO  http GET /orders/9173 200 30ms req=b6d07fdc-f9b6-48bc-a5e1-288833fdd23a
+2026-11-18T14:04:25.155Z DEBUG cache hit key=cust:173
+2026-11-18T14:04:25.618Z ERROR payments timeout after 5000ms order=6274
+2026-11-18T14:04:26.179Z INFO  http GET /orders/6518 200 25ms req=21b82872-1bfd-48e5-aa32-a1f234f2aa54
+2026-11-18T14:04:26.266Z INFO  http GET /orders/7070 200 34ms req=db39ced6-3957-45e4-abec-1858063495a3
+2026-11-18T14:04:26.363Z INFO  http GET /orders/8743 200 31ms req=6056c2db-47f6-48c5-ac54-ff56671b2d11
+2026-11-18T14:04:26.453Z WARN  payments retry attempt=1 upstream=10.0.3.23:8443
+2026-11-18T14:04:26.491Z ERROR payments timeout after 5000ms order=6551
+2026-11-18T14:04:26.803Z INFO  http GET /orders/9871 200 5ms req=0f1c0901-b98f-49ed-a39f-e3154cd8f8cd
+2026-11-18T14:04:26.804Z WARN  payments retry attempt=1 upstream=10.0.3.40:8443
+2026-11-18T14:04:26.804Z WARN  payments retry attempt=2 upstream=10.0.3.32:8443
+2026-11-18T14:04:26.804Z WARN  payments retry attempt=3 upstream=10.0.3.33:8443
+2026-11-18T14:04:26.817Z DEBUG cache miss key=cust:165
+2026-11-18T14:04:26.914Z INFO  db query orders.by_customer took 31.4ms rows=45
+2026-11-18T14:04:26.928Z INFO  db query orders.by_customer took 40.4ms rows=12
+2026-11-18T14:04:28.280Z WARN  payments retry attempt=1 upstream=10.0.3.10:8443
+2026-11-18T14:04:28.385Z INFO  http GET /orders/6582 200 9ms req=a6b65a51-fef1-4221-ad2c-1833f5251ab4
+2026-11-18T14:04:28.443Z DEBUG cache hit key=cust:36
+2026-11-18T14:04:28.607Z INFO  http GET /orders/2822 200 14ms req=7c79a77d-b8b4-4f8a-af8f-53801d526665
+2026-11-18T14:04:28.930Z INFO  db query orders.by_customer took 93.8ms rows=47
+2026-11-18T14:04:29.260Z INFO  http GET /orders/7931 200 5ms req=27d8dc6d-be42-4e2f-abe5-7cc6df65bcbd
+2026-11-18T14:04:29.892Z INFO  http GET /orders/89 200 32ms req=22257488-9e0e-4cf6-a757-57b04e46c099
+2026-11-18T14:04:29.924Z INFO  db query orders.by_customer took 52.3ms rows=19
+2026-11-18T14:04:30.057Z INFO  http GET /orders/7107 200 10ms req=5083903e-6cca-4a1d-a982-2ab831c14dcc
+2026-11-18T14:04:30.105Z DEBUG cache miss key=cust:244
+2026-11-18T14:04:30.521Z INFO  http GET /orders/4227 200 38ms req=e96f5b0b-17aa-45dc-a2e6-c9cec6c2d704
+2026-11-18T14:04:30.744Z INFO  http GET /orders/1672 200 16ms req=901f9dfe-68f9-4253-ac49-444783049bb5
+2026-11-18T14:04:30.856Z INFO  db query orders.by_customer took 48.2ms rows=27
+2026-11-18T14:04:31.297Z DEBUG cache miss key=cust:37
+2026-11-18T14:04:32.151Z INFO  db query orders.by_customer took 92.3ms rows=7
+2026-11-18T14:04:32.155Z DEBUG cache miss key=cust:402
+2026-11-18T14:04:32.352Z INFO  worker heartbeat pid=8551 mem=234MB
+2026-11-18T14:04:32.611Z INFO  http GET /orders/1878 200 15ms req=a9d1f6f3-1a6e-48f0-aed6-c4cb8958bda4
+2026-11-18T14:04:32.842Z INFO  http GET /orders/2312 200 13ms req=f463ad29-73d4-4022-a2f7-fcac3237cdc1
+2026-11-18T14:04:33.237Z INFO  http GET /orders/6134 200 21ms req=d2cfca9d-1d33-43cd-acef-68dcdccf9521
+2026-11-18T14:04:33.327Z INFO  http GET /orders/522 200 29ms req=371bc315-cdfe-478a-a074-852314e1f1d0
+2026-11-18T14:04:33.694Z INFO  http GET /orders/6094 200 6ms req=c53b065e-718f-41d5-a0b9-8c20042ad9f2
+2026-11-18T14:04:33.720Z INFO  db query orders.by_customer took 37.2ms rows=28
+2026-11-18T14:04:33.746Z INFO  http GET /orders/3586 200 21ms req=0d7c0a33-b16e-40cc-ae18-a3df126056ed
+2026-11-18T14:04:34.005Z INFO  db query orders.by_customer took 106.2ms rows=27
+2026-11-18T14:04:34.723Z DEBUG cache miss key=cust:356
+2026-11-18T14:04:34.764Z INFO  http GET /orders/9886 200 39ms req=2a8be037-9f7b-401d-a9af-6a3203350acb
+2026-11-18T14:04:34.847Z INFO  http GET /orders/4490 200 9ms req=ba17e176-034f-4007-a15a-21e0baca0100
+2026-11-18T14:04:34.901Z ERROR payments timeout after 5000ms order=1726
+2026-11-18T14:04:35.121Z INFO  db query orders.by_customer took 73.5ms rows=49
+2026-11-18T14:04:35.415Z INFO  http GET /orders/462 200 33ms req=7982bfdd-d5fb-4937-a37c-4cdab9e4756f
+2026-11-18T14:04:36.137Z INFO  db query orders.by_customer took 59.2ms rows=43
+2026-11-18T14:04:36.216Z INFO  db query orders.by_customer took 49.4ms rows=48
+2026-11-18T14:04:36.356Z INFO  db query orders.by_customer took 48.9ms rows=14
+2026-11-18T14:04:36.686Z INFO  http GET /orders/4119 200 8ms req=c3cc20b0-635a-4c1d-a138-1a7b48cb487d
+2026-11-18T14:04:37.331Z DEBUG cache miss key=cust:123
+2026-11-18T14:04:37.438Z DEBUG cache hit key=cust:28
+2026-11-18T14:04:37.448Z INFO  http GET /orders/6304 200 31ms req=8aa0808c-646c-467e-a2dd-e71a92d47300
+2026-11-18T14:04:37.726Z DEBUG cache hit key=cust:210
+2026-11-18T14:04:37.921Z INFO  db query orders.by_customer took 58.6ms rows=33
+2026-11-18T14:04:37.949Z INFO  http GET /orders/2079 200 4ms req=234db7d0-3779-4001-aaea-ae2dab57e69c
+2026-11-18T14:04:38.271Z INFO  http GET /orders/6866 200 4ms req=ac48e2d8-0c68-4017-a9d3-a27111a64bee
+2026-11-18T14:04:38.326Z INFO  http GET /orders/9638 200 11ms req=2aec5dab-07f9-4d22-ac3a-963b22f7bda8
+2026-11-18T14:04:38.456Z INFO  http GET /orders/4620 200 17ms req=86554d46-aada-47f2-afbd-e96a32b46241
+2026-11-18T14:04:39.098Z INFO  http GET /orders/2883 200 29ms req=ccfb779b-5c2f-4071-a6df-e5134591b4bb
+2026-11-18T14:04:39.119Z INFO  db query orders.by_customer took 82.6ms rows=2
+2026-11-18T14:04:39.179Z INFO  http GET /orders/3180 200 9ms req=23eae3d5-5139-4e95-ac02-9f54e01aa406
+2026-11-18T14:04:39.249Z INFO  db query orders.by_customer took 60.0ms rows=30
+2026-11-18T14:04:39.365Z ERROR payments timeout after 5000ms order=9199
+2026-11-18T14:04:39.904Z INFO  worker heartbeat pid=8886 mem=248MB
+2026-11-18T14:04:40.039Z INFO  db query orders.by_customer took 40.8ms rows=24
+2026-11-18T14:04:40.119Z INFO  db query orders.by_customer took 28.8ms rows=21
+2026-11-18T14:04:40.336Z INFO  db query orders.by_customer took 69.3ms rows=43
+2026-11-18T14:04:40.546Z ERROR payments timeout after 5000ms order=3035
+2026-11-18T14:04:40.727Z INFO  http GET /orders/7117 200 23ms req=8fe80f40-0955-4d23-adf2-32d3873abbd6
+2026-11-18T14:04:40.741Z INFO  http GET /orders/3710 200 34ms req=a4850822-0144-4d1f-a8f9-9c1da43f9c68
+2026-11-18T14:04:40.743Z INFO  http GET /orders/2305 200 15ms req=f37c8943-0b62-4488-a8d6-03956f0aae52
+2026-11-18T14:04:41.059Z DEBUG cache miss key=cust:320
+2026-11-18T14:04:41.195Z INFO  http GET /orders/6887 200 30ms req=cee262b1-1f40-4cef-ae1b-da4e922dada5
+2026-11-18T14:04:41.195Z ERROR inventory reservation failed sku=SKU-568 reason=stale_version
+2026-11-18T14:04:41.358Z INFO  http GET /orders/4471 200 29ms req=9fc0f6c5-3dcb-49d7-ae3b-92116da3c349
+2026-11-18T14:04:41.810Z INFO  http GET /orders/3665 200 37ms req=aa9b0c86-2ad3-4581-a3c3-97fa316dffa3
+2026-11-18T14:04:42.304Z INFO  http GET /orders/3724 200 33ms req=f693e73d-09da-4c0b-a618-5ffafd2acd13
+2026-11-18T14:04:42.437Z INFO  http GET /orders/6727 200 32ms req=76a2f2a9-dff5-43cf-a840-19c8ebac0f88
+2026-11-18T14:04:42.684Z INFO  db query orders.by_customer took 72.2ms rows=28
+2026-11-18T14:04:42.931Z WARN  payments retry attempt=1 upstream=10.0.3.30:8443
+2026-11-18T14:04:42.931Z WARN  payments retry attempt=2 upstream=10.0.3.21:8443
+2026-11-18T14:04:42.931Z WARN  payments retry attempt=3 upstream=10.0.3.21:8443
+2026-11-18T14:04:44.446Z DEBUG cache miss key=cust:339
+2026-11-18T14:04:44.585Z INFO  http GET /orders/5527 200 3ms req=b9671a2a-d303-4c02-aafc-47b6543182af
+2026-11-18T14:04:45.091Z WARN  payments retry attempt=1 upstream=10.0.3.26:8443
+2026-11-18T14:04:45.091Z WARN  payments retry attempt=2 upstream=10.0.3.21:8443
+2026-11-18T14:04:45.091Z WARN  payments retry attempt=3 upstream=10.0.3.9:8443
+2026-11-18T14:04:45.091Z INFO  db query orders.by_customer took 34.9ms rows=27
+2026-11-18T14:04:45.311Z INFO  http GET /orders/5596 200 35ms req=d67ceb96-514d-4658-a810-3772fec315fc
+2026-11-18T14:04:45.439Z INFO  http GET /orders/2996 200 8ms req=a75e700a-3b01-43c7-a363-21f7f8d72e3f
+2026-11-18T14:04:45.488Z INFO  http GET /orders/3197 200 34ms req=a9d63990-014b-46e8-a4fe-0a74b1904411
+2026-11-18T14:04:45.929Z INFO  db query orders.by_customer took 87.7ms rows=19
+2026-11-18T14:04:46.213Z INFO  worker heartbeat pid=2300 mem=255MB
+2026-11-18T14:04:46.252Z ERROR payments timeout after 5000ms order=6960
+2026-11-18T14:04:46.393Z INFO  db query orders.by_customer took 49.6ms rows=19
+2026-11-18T14:04:46.720Z INFO  db query orders.by_customer took 59.4ms rows=10
+2026-11-18T14:04:46.762Z ERROR payments timeout after 5000ms order=7369
+2026-11-18T14:04:46.934Z INFO  http GET /orders/6148 200 26ms req=9acf0144-f27a-4d2e-a19b-89f1845f20d5
+2026-11-18T14:04:47.027Z INFO  http GET /orders/3584 200 36ms req=72bee6d4-7925-4c30-abc1-7708c038ab55
+2026-11-18T14:04:47.220Z INFO  http GET /orders/7643 200 24ms req=6d8531f4-4d97-4d1e-a1d7-0ba88c78a4c8
+2026-11-18T14:04:47.303Z DEBUG cache miss key=cust:155
+2026-11-18T14:04:47.764Z WARN  payments retry attempt=1 upstream=10.0.3.17:8443
+2026-11-18T14:04:47.764Z WARN  payments retry attempt=2 upstream=10.0.3.9:8443
+2026-11-18T14:04:47.764Z WARN  payments retry attempt=3 upstream=10.0.3.32:8443
+2026-11-18T14:04:47.807Z WARN  payments retry attempt=1 upstream=10.0.3.18:8443
+2026-11-18T14:04:48.021Z INFO  http GET /orders/7558 200 11ms req=fd56aaab-9f94-4837-ad1a-80128a1faf6c
+2026-11-18T14:04:48.072Z INFO  http GET /orders/1486 200 7ms req=bcd86a64-9933-4a11-aada-30bd33986c11
+2026-11-18T14:04:48.351Z INFO  http GET /orders/7605 200 13ms req=7a91f3b3-ead3-4584-af8c-085842df7472
+2026-11-18T14:04:48.553Z INFO  http GET /orders/6592 200 31ms req=6e8d5e2d-b12d-46a8-a260-eeb192f3d7ff
+2026-11-18T14:04:48.592Z INFO  http GET /orders/1775 200 19ms req=f09f85b6-8401-49f6-a37c-8ddfbaa2257f
+2026-11-18T14:04:48.680Z INFO  db query orders.by_customer took 46.0ms rows=33
+2026-11-18T14:04:48.866Z INFO  http GET /orders/9301 200 3ms req=efb8fbd3-53b8-404c-a014-75a962b7e96f
+2026-11-18T14:04:49.183Z INFO  http GET /orders/2614 200 14ms req=c1dec566-32fb-4be2-aae0-7ce12583a542
+2026-11-18T14:04:49.369Z INFO  db query orders.by_customer took 60.0ms rows=40
+2026-11-18T14:04:49.428Z DEBUG cache miss key=cust:221
+2026-11-18T14:04:49.944Z WARN  payments retry attempt=1 upstream=10.0.3.40:8443
+2026-11-18T14:04:50.234Z INFO  http GET /orders/8758 200 27ms req=a4cb87a2-d070-4757-af0c-e7333b72e023
+2026-11-18T14:04:51.467Z ERROR payments timeout after 5000ms order=2857
+2026-11-18T14:04:53.071Z INFO  http GET /orders/6903 200 6ms req=b98e4f32-5356-4a31-a08a-a6253c874d99
+2026-11-18T14:04:53.306Z INFO  http GET /orders/5886 200 18ms req=1c723fef-8f7b-4975-a3a8-961829b381d7
+2026-11-18T14:04:53.328Z INFO  http GET /orders/416 200 26ms req=32f2ccc9-8d66-4371-ad81-82b09844bfb6
+2026-11-18T14:04:53.466Z INFO  http GET /orders/7666 200 26ms req=1b7ad518-2207-47ec-a6e5-1c1f5263aedd
+2026-11-18T14:04:53.469Z INFO  http GET /orders/5412 200 36ms req=e78d47b8-51f8-4b88-a274-563a65c1846d
+2026-11-18T14:04:53.587Z INFO  db query orders.by_customer took 52.7ms rows=15
+2026-11-18T14:04:53.812Z WARN  payments retry attempt=1 upstream=10.0.3.25:8443
+2026-11-18T14:04:53.812Z WARN  payments retry attempt=2 upstream=10.0.3.19:8443
+2026-11-18T14:04:53.812Z WARN  payments retry attempt=3 upstream=10.0.3.11:8443
+2026-11-18T14:04:53.826Z INFO  http GET /orders/4508 200 9ms req=68d667ac-4fb4-4ea9-a4af-fd4a4797b101
+2026-11-18T14:04:54.521Z INFO  http GET /orders/254 200 17ms req=0f2c7e97-9841-4bfe-aadc-453335839cb2
+2026-11-18T14:04:54.524Z INFO  db query orders.by_customer took 49.6ms rows=9
+2026-11-18T14:04:54.876Z INFO  http GET /orders/9721 200 18ms req=84818256-0b98-4f03-a584-e0e5f2a460a8
+2026-11-18T14:04:55.375Z INFO  db query orders.by_customer took 36.2ms rows=8
+2026-11-18T14:04:55.380Z INFO  http GET /orders/4875 200 35ms req=0dad4ad5-66a4-4178-ac7d-f01ed7866bea
+2026-11-18T14:04:55.496Z INFO  db query orders.by_customer took 42.2ms rows=16
+2026-11-18T14:04:55.542Z INFO  db query orders.by_customer took 54.9ms rows=16
+2026-11-18T14:04:55.949Z INFO  http GET /orders/6876 200 28ms req=8a2ff301-b1e7-43b1-a481-5c13b96538d3
+2026-11-18T14:04:56.189Z INFO  http GET /orders/9658 200 14ms req=8b6fea6f-5bdb-4936-a777-afe0bfb465c9
+2026-11-18T14:04:56.235Z INFO  db query orders.by_customer took 40.9ms rows=5
+2026-11-18T14:04:56.263Z INFO  http GET /orders/4116 200 27ms req=efb5970d-53f6-431e-a7a1-6083fa4dcc32
+2026-11-18T14:04:56.484Z INFO  http GET /orders/9213 200 28ms req=ee80909b-d6f7-4397-a285-1dcc6e213d6d
+2026-11-18T14:04:57.298Z INFO  http GET /orders/2325 200 38ms req=87fdf077-2d3f-410d-ab19-7290bc989375
+2026-11-18T14:04:57.495Z INFO  http GET /orders/8678 200 36ms req=55b816b3-c261-49e5-a43c-b0a3e504e49e
+2026-11-18T14:04:58.226Z INFO  db query orders.by_customer took 26.1ms rows=33
+2026-11-18T14:04:58.329Z INFO  http GET /orders/5879 200 36ms req=7dd138a8-9a40-46a8-ac2f-d5ae349c6f28
+2026-11-18T14:04:58.632Z INFO  http GET /orders/865 200 33ms req=4057a2f9-0530-4f88-a828-924159d716c8
+2026-11-18T14:04:58.828Z INFO  http GET /orders/5956 200 5ms req=65df4f59-b657-4602-ada0-a634c61045f3
+2026-11-18T14:04:58.910Z INFO  http GET /orders/2943 200 33ms req=e73a7a15-8a56-4d19-a72d-018e3068fe33
+2026-11-18T14:04:59.128Z INFO  db query orders.by_customer took 100.5ms rows=34
+2026-11-18T14:04:59.904Z INFO  http GET /orders/3630 200 36ms req=4812fca2-8483-485e-a934-25ea10d30094
+2026-11-18T14:05:00.708Z INFO  db query orders.by_customer took 77.5ms rows=26
+2026-11-18T14:05:00.756Z INFO  http GET /orders/4409 200 13ms req=4f08dfdf-e87b-4372-aa39-56539945fd0e
+2026-11-18T14:05:00.780Z INFO  http GET /orders/3394 200 40ms req=541be119-31ac-4c4d-a50c-64d943c28c3c
+2026-11-18T14:05:00.921Z INFO  http GET /orders/6188 200 19ms req=e1fefe8f-e0ab-491c-aee6-5ce0d82d271c
+2026-11-18T14:05:01.275Z INFO  worker heartbeat pid=8495 mem=231MB
+2026-11-18T14:05:01.737Z INFO  http GET /orders/3642 200 28ms req=f5d225c8-cc1a-40bc-a52b-764bc36811ff
+2026-11-18T14:05:01.763Z INFO  db query orders.by_customer took 75.2ms rows=28

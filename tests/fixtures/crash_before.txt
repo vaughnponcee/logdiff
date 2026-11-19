@@ -1,0 +1,10 @@
+2026-11-18T14:02:11.120Z INFO  worker starting batch=482
+Traceback (most recent call last):
+  File "/srv/app/worker.py", line 88, in run
+    self.process(batch)
+  File "/srv/app/worker.py", line 120, in process
+    total = sum(item.price for item in batch.items)
+  File "/srv/app/models.py", line 41, in price
+    return self._cents / 100
+TypeError: unsupported operand type(s) for /: 'NoneType' and 'int'
+2026-11-18T14:02:11.300Z INFO  worker restarting
